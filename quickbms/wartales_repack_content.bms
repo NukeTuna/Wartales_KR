@@ -1,0 +1,81 @@
+# script for Wartales content.pak files
+# created by spiritovod
+# edited by radtuna
+
+# set archive name here
+string ARCHIVE = "content.pak"
+
+callfunction QUICKBMS_4GB_CHECK 1
+open FDSE ARCHIVE 1
+string ARCHIVE + "_mod"
+get NAME filename
+strlen NAMEZ NAME
+
+get MAGIC long 1
+get BASE_OFF long 1
+get DATA_SIZE long 1
+if DATA_SIZE < 0
+	callfunction split 1 DATA_SIZE
+endif
+
+findloc OFFSET string NAME 1 ""
+if OFFSET = ""
+	print "Selected archive doesn't contain this file."
+	cleanexit
+endif
+math OFFSET + NAMEZ
+goto OFFSET 1
+get TYPE byte 1
+if TYPE = 0
+	get OFF long 1
+	get SIZE long 1
+elif TYPE = 2
+	get OFF double 1
+	math TMP = OFF
+	math OFF + TMP1
+	math OFF + TMP2
+	math OFF - TMP
+endif
+
+log MEMORY_FILE 0 BASE_OFF 1
+math MEM = -1
+math OFFSET + 1
+goto OFFSET MEM
+get FSIZE asize
+if TYPE = 0
+	math OFF = DATA_SIZE
+	put OFF long MEM
+	put FSIZE long MEM
+elif TYPE = 2
+	put OFF double MEM
+	put FSIZE long MEM
+endif
+math DATA_SIZE + FSIZE
+putvarchr MEMORY_FILE 8 DATA_SIZE long
+
+log ARCHIVE 0 BASE_OFF MEM
+append
+	log ARCHIVE BASE_OFF TMP1 1
+	math BASE_OFF + TMP1
+	log ARCHIVE BASE_OFF TMP2 1
+	log ARCHIVE 0 FSIZE
+append
+cleanexit
+
+startfunction split
+	math TMP1 n split_ARG1
+	math TMP2 = split_ARG1
+	math DIFF = 0x7FFFFFFF
+	math TMP2 - DIFF
+	math TMP2 - 1
+	math TMP2 * 2
+endfunction
+
+startfunction QUICKBMS_4GB_CHECK
+    math TMP64 = 0x10000000
+    math TMP64 * 16
+    if TMP64 != 0
+        print "You must use usual quickbms.exe, not 4gb_files!"
+        cleanexit
+    endif
+endfunction
