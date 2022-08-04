@@ -3,6 +3,6 @@
 cd fontgen
 rmdir /s /q output
 mkdir output
-fontgen fontinput.json
+fontgen fontinput.json -info -printmissing -verbose
 
 pause

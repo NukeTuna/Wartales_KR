@@ -1,4 +1,4 @@
-:: @echo off
+@echo off
 
 :: copy fonts
 copy fontgen\output\noto_sans_cjk_regular.fnt noto_sans_cjk_regular.fnt
