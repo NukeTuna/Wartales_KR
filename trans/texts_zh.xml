@@ -212,7 +212,7 @@
 
         현재 총계: <gold>::gold::</gold>
         임금: <gold>::salaries::</gold>
-        지불해야 하는 임금: <gold>::dueSalary::<gold></t>
+        지불해야 하는 임금: <gold>::dueSalary::</gold></t>
         <t id="mission_gold">이행된 계약: <gold>::gold::</gold></t>
         <t id="food_info">각 휴식 전에 동반자에게 음식을 주어야 합니다. <b>식량</b>이 충분한지 확인하십시오.
 
@@ -232,7 +232,7 @@
         <t id="pick_found_item">[RMB] 가져가다</t>
         <t id="buy_shop_item">[RMB] 구매 <gold>::price::</gold></t>
         <t id="cant_buy_shop_item">[RMB] 구매 <gold><bad>::price::</bad></gold></t>
-        <t id="buy_shop_item_with">[RMB] 구매 <font color="#ffffff"><img src="item/::currency::"/>::price::</font color="#ffffff"></t>
+        <t id="buy_shop_item_with">[RMB] 구매 <font color="#ffffff"><img src="item/::currency::"/>::price::</font></t>
         <t id="cant_buy_shop_item_with">[RMB] 구매 <bad><img src="item/::currency::"/>::price::</bad></t>
         <t id="sell_shop_item">[RMB] 판매 <gold>::price::</gold></t>
         <t id="sell_shop_item_stolen">[RMB] 판매 <gold>::price::</gold> <bad><img src="icon/Suspicion"/> +::danger::</bad></t>
