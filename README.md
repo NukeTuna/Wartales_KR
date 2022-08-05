@@ -9,7 +9,11 @@ Shiro games의 게임 Wartales를 번역하는 프로젝트입니다.
 
 기본적으로는 fork 후에 PR로 번역하는 것을 권장합니다.\
 한번 이상 PR을 생성 한 이후에 다음 discord에서 collaborator 신청을 해주시기 바랍니다.\
-[Discord Link](https://discord.gg/Pd3sD9Np7C)
+[Discord Link](https://discord.gg/Pd3sD9Np7C)\
+\
+번역 가이드 문서가 만들어 졌습니다.\
+다음 링크의 노션 문서를 참조해주세요.\
+[Translation Guide Docs](https://elated-dosa-80f.notion.site/Wartales-translation-1ccaf2ddc4bd495bb720de6d944f2364)
 
 ## res.pak repack 하기
 다음의 순서를 따라서 진행하기 바랍니다.
