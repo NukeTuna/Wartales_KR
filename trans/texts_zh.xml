@@ -310,54 +310,54 @@
         <t id="gather_item">::name::
         ::infos::
         ::button:: ::action::</t>
-    <t id="gather_def_action">줍기</t>
-    <t id="recruit_action">모집</t>
-    <t id="recruit_cost">모집 비용 ::cost::</t>
-    <t id="dialog_requires">::cost:: 필요</t>
-    <t id="dialog_wanted">수배 <bad><img src="icon/Suspicion"/> +::range::</bad></t>
-    <t id="dialog_wanted_gains">수배 <good><img src="icon/Suspicion"/> ::range::</good></t>
-    <t id="dialog_gains">획득 ::gains::</t>
-    <t id="dialog_gains_mission">약속된 보상</t>
-    <t id="craft_requires_ingredients">구성 요소:</t>
-    <t id="cancel_action">취소</t>
-    <t id="cancel_daily_rest">남은 휴식: ::count::</t> <!-- 원문은 Rest Left: -->
-    <t id="rank_rest">오늘은 이미 랭크를 할당했습니다.</t>
-    <g id="choose_unit">
-        <t id="action_tip_no_job">::name::
+        <t id="gather_def_action">줍기</t>
+        <t id="recruit_action">모집</t>
+        <t id="recruit_cost">모집 비용 ::cost::</t>
+        <t id="dialog_requires">::cost:: 필요</t>
+        <t id="dialog_wanted">수배 <bad><img src="icon/Suspicion"/> +::range::</bad></t>
+        <t id="dialog_wanted_gains">수배 <good><img src="icon/Suspicion"/> ::range::</good></t>
+        <t id="dialog_gains">획득 ::gains::</t>
+        <t id="dialog_gains_mission">약속된 보상</t>
+        <t id="craft_requires_ingredients">구성 요소:</t>
+        <t id="cancel_action">취소</t>
+        <t id="cancel_daily_rest">남은 휴식: ::count::</t> <!-- 원문은 Rest Left: -->
+        <t id="rank_rest">오늘은 이미 랭크를 할당했습니다.</t>
+        <g id="choose_unit">
+            <t id="action_tip_no_job">::name::
 
-        [LMB] ::action::</t>
-        <t id="action_tip_ok">::name::
+            [LMB] ::action::</t>
+            <t id="action_tip_ok">::name::
 
-        [LMB] ::action::
-        [RMB] 직업 선택</t>
-        <t id="action_tip_disabled">::name::
+            [LMB] ::action::
+            [RMB] 직업 선택</t>
+            <t id="action_tip_disabled">::name::
 
-        ::reasons::
-        [RMB] ::action::</t>
-        <t id="action_assign_job">[LMB] ::action::</t>
-        <t id="action">::name::
+            ::reasons::
+            [RMB] ::action::</t>
+            <t id="action_assign_job">[LMB] ::action::</t>
+            <t id="action">::name::
 
-        [LMB] ::action::
-        [RMB] ::right_action::</t>
-        <t id="validation_tip_disabled">::reasons::</t>
-        <t id="inspect_action">조사</t>
-        <t id="choose_job_action">직업 선택</t>
-        <t id="default_action">선택</t>
-        <t id="title"><font color="#FFF">::traitName:</font>을 선택하세요.</t>
-        <t id="name_unit">동료</t>
-        <t id="not_allowed">여기에서는 이 유닛를 사용할 수 없습니다.</t>
-        <t id="injured">부상당한 동료</t>
-        <t id="req_trait_level">::trait:: ::level:: 필요</t>
-        <t id="need_prisoner">포로여야 합니다.</t>
-        <t id="need_no_prisoner">포로여서는 안됩니다.</t>
-        <t id="should_be_type">::name::여야 합니다.</t>
-        <t id="job_required">::name:: 초보자여야 합니다.</t>
-        <t id="level_required">::value:: 레벨이어야 합니다.</t>
-        <t id="item_required">::name::이 있어야 합니다.</t>
-        <t id="wrong_job">::name::이어야 합니다.</t>
-        <t id="no_job">직업 없음</t>
-        <t id="select_count_require">::count:: 유닛 필요</t>
-        <t id="types_separator">또는</t>
+            [LMB] ::action::
+            [RMB] ::right_action::</t>
+            <t id="validation_tip_disabled">::reasons::</t>
+            <t id="inspect_action">조사</t>
+            <t id="choose_job_action">직업 선택</t>
+            <t id="default_action">선택</t>
+            <t id="title"><font color="#FFF">::traitName:</font>을 선택하세요.</t>
+            <t id="name_unit">동료</t>
+            <t id="not_allowed">여기에서는 이 유닛를 사용할 수 없습니다.</t>
+            <t id="injured">부상당한 동료</t>
+            <t id="req_trait_level">::trait:: ::level:: 필요</t>
+            <t id="need_prisoner">포로여야 합니다.</t>
+            <t id="need_no_prisoner">포로여서는 안됩니다.</t>
+            <t id="should_be_type">::name::여야 합니다.</t>
+            <t id="job_required">::name:: 초보자여야 합니다.</t>
+            <t id="level_required">::value:: 레벨이어야 합니다.</t>
+            <t id="item_required">::name::이 있어야 합니다.</t>
+            <t id="wrong_job">::name::이어야 합니다.</t>
+            <t id="no_job">직업 없음</t>
+            <t id="select_count_require">::count:: 유닛 필요</t>
+            <t id="types_separator">또는</t>
 </g>
 <t id="inventory_weight">동료의 용량: ::수송::
  인벤토리 무게: ::inv::
