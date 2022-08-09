@@ -1,367 +1,367 @@
 <texts project="Wartales" version="34" lang="en" date="2022-08-02 10:31:04" softwareVersion="2">
-    <t id="fmt_dmg">::value:: 피해</t>
-    <t id="list_name">::names:: 및 ::last::</t>
-    <t id="level">레벨</t>
-    <g id="unit_ranks">
-        <t _id="aucun">없음</t>
-        <t _id="lieutenant">중위</t>
-        <t _id="capitaine">대위</t>
-    </g>
-    <g id="time">
-        <t id="short_perday">/d</t>
-        <t id="hours">::h:: 시간</t>
-        <t id="day">하루 ::h::시간</t>
-        <t id="days">::d::일 ::h::시간</t>
-        <t id="current_time">::day::일, ::hour::시</t>
-        <t id="current_time_month">::month::월, ::day::일, ::hour::시</t>
-        <t id="current_day_month">::month::월, ::day::일</t>
-        <t id="current_day">::day::일</t>
-        <t id="short_days_label">(::days::d)</t>
-        <t id="yesterday">어제</t>
-        <t id="today">오늘</t>
-        <t id="tomorrow">내일</t>
-        <t id="days_ago">::days::일 전</t>
-        <t id="days_future">::days::일 후</t>
-    </g>
-    <g id="trait_levels">
-        <t _id="dbutant">풋내기</t>
-        <t _id="novice">초보자</t>
-        <t _id="apprenti">수습생</t>
-        <t _id="compagnon">숙련자</t>
-        <t _id="matre">달인</t>
-    </g>
-    <g id="unit_info">
-    <t id="defense">방어</t>
-    <t id="stuff">장비</t>
-    <t id="skills">기술</t>
-    <t id="status">부상 및 상태</t>
-    <t id="exp">경험</t>
-    <t id="attribs">속성</t>
-    <t id="traits">특성</t>
-    <t id="level">::level:: 레벨</t>
-    <t id="levelMaxed">최대 레벨 도달</t>
-    <t id="xp">XP</t>
-    <t id="salary">임금</t>
-    <t id="food">소비</t>
-    <t id="crit_damages">크리티컬 데미지: <good>+::value::%</good></t>
-    <t id="escape">탈출 능력</t>
-    <t id="willpower_resolve_bonus"><b>::value:: 점수당:</b> 이 유닛은 전투에서 처음 죽을 때 살아남습니다(조우당 한 번).</t>
-    <t id="attribute_upgrade"><influence>::value::</influence>마다 1개의 <img src="icon/UnitInfoLevelUp"/>이 증가합니다.</t>
-    <t id="attribute_upgrade_add">[LMB] <img src="icon/UnitInfoLevelUp"/> 1 증가</t>
-    <t id="attribute_upgrade_remove">[RMB] <img src="icon/UnitInfoLevelUp"/> 1 감소</t>
-    </g>
-    <g id="escape">
-        <t id="desc">수감자는 휴식 중에 탈출할 수 있습니다.</t>
-        <t id="escape_chance">다음 휴식 중 탈출 확률:</t>
-        <t id="none"><good>없음</good></t>
-        <t id="low"><good>낮은</good></t>
-        <t id="medium"><warn>평균</warn></t>
-        <t id="high"><bad>높은</bad></t>
-    </g>
-    <g id="happy_bonus">
-    <t id="campfire">캠프파이어에 배정된 동료들</t>
-    <t id="comfortable_fur">::unit::에 가까운 동료들</t>
-    <t id="starvation">당신의 동료는 배고픕니다!</t>
-    <t id="starvation2">동료들이 굶주리고 있습니다!</t>
-    <t id="salaries_late">당신의 동료들은 임금 지연에 만족하지 않습니다!</t>
-    <t id="salaries_late2">당신의 동료들은 임금 지연에 분노합니다!</t>
-    <t id="bad_diet">식품 요구 사항이 충족되지 않음</t>
-    <t id="rest_forest">숲에서 휴식</t>
-    <t id="food_bonus">음식</t>
-    <t id="other_bonus">기타 긍정적인 효과</t>
-    <t id="other_malus">기타 부정적인 영향</t>
-    <t id="smelly_odour">캠프에서 악취</t>
-    <t id="bestfriend_adjacent">서로 옆에서 자고있는 가장 친한 친구</t>
-    <t id="bestfriend_tool">캠프에서 동일한 도구에 할당된 가장 친한 친구</t>
-    <t id="enemy_adjacent">나란히 잠든 적들</t>
-    <t id="enemy_tool">캠프에서 동일한 도구에 할당된 적</t>
-    </g>
-    <g id="compass">
-        <t _id="nord">북쪽</t>
-        <t _id="nordest">북동</t>
-        <t _id="est">동쪽</t>
-        <t _id="sudest">남동</t>
-        <t _id="sud">남쪽</t>
-        <t _id="sudouest">남서</t>
-        <t _id="ouest">서쪽</t>
-        <t _id="nordouest">북서</t>
-    </g>
-    <g id="battle">
-        <t id="allies">동맹</t>
-        <t id="newRound">새로운 라운드가 시작됩니다.</t>
-        <t id="end_turn">::unit::의 턴 종료 <key>Space</key></t>
-        <t id="anotherUnitPlaying">다른 동료가 차례를 시작했습니다.</t>
-        <t id="reinforcement">강화</t>
-        <t id="knockout_successful">기절!</t>
-        <t id="capture_successful">캡처!</t>
-        <t id="willpower_resolve_bonus">의지력!</t>
-        <t id="miss">빗나감</t>
-        <t id="timeline_your_unit">이 라운드에 아직 참여하지 않은 모든 유닛을 사용할 수 있습니다.</t>
-        <t id="timeline_unit">::name::이(가) 차례를 갖습니다.</t>
-        <t id="timeline_end_round">라운드 종료</t>
-        <t id="morale">적 유닛을 처치하여 사기를 높이고 더 빨리 승리를 쟁취하십시오.</t>
-        <t id="cancelPendingSkill">클릭하여 "::skill::"을 시작하고 이 유닛의 턴을 시작합니다.</t>
-        <t id="cancelReactionSkill">클릭하여 "::skill::"을 종료하고 이 유닛의 턴을 시작합니다.</t>
-        <t id="bonus_ap_desc">이 전투에서만 사용할 수 있는 <apt>::count::</apt> <b>보너스 Valor Points</b>가 있습니다.</t>
-        <t id="pending_skill_delay">이 유닛은 턴 시작 시 활성화될 스킬을 준비했습니다.</t>
-        <t id="pending_skill_reaction">이 유닛은 다른 유닛의 턴에 발동하는 스킬을 가지고 있습니다.</t>
-        <t id="notify_enemy_renfort">적 지원군이 온다!</t>
-        <t id="notify_ally_renfort">연합군 지원군이 온다!</t>
-        <t id="no_retreat"><bad>후퇴할 수 없습니다.</bad></t>
-        <g id="notify">
-         <t id="bionn_transformation">질병이 그녀를 극복하고 Bionn은 통제력을 잃습니다!</t>
-        </g>
-    </g>
-    <g id="battlemode">
-        <g id="common">
-            <t id="unit_madness">::name::은(는) 미쳤습니다.</t>
-        </g>
-        <g id="arena">
-            <t id="arenaRule">경기장의 특별 규칙</t>
-            <t id="arenaRules">경기장의 특별 규칙</t>
-            <t id="choosePlayerTeam">전투기를 선택하세요</t>
-            <t id="playerTeam">당신의 팀</t>
-            <t id="demand">요구 사항</t>
-            <t id="reward">보상:</t>
-            <t id="voxPopuliDesc">당신의 승리에 따라 군중은 당신을 존경합니다. 나머지 경쟁을 위해 업그레이드를 선택하십시오.</t>
-            <t id="voxPopuliTitle">선물 선택</t>
-            <t id="newRule">새로운 아레나 규칙:
-            <b>::규칙::</b></t>
-            <t id="confirmStartFight">이 팀을 등록하시겠습니까?</t>
-            <t id="confirmStartNextFight">다음 전투를 시작하시겠습니까?</t>
-            <t id="confirmStartChampion">챔피언에 도전하시겠습니까?</t>
-            <t id="confirmActionEmpty"><bad>일부 유닛에는 선택한 보너스가 없습니다.</bad></t>
-            <t id="confirmLeaveArena">이 경기장에서 모든 진행 상황을 잃으시겠습니까?</t>
-            <t id="cantFight">이 대회에 참가하려면 4명의 동료를 등록해야 합니다.</t>
-            <t id="unitAlreadyRegister">이미 등록된 유닛입니다.</t>
-        </g>
-        <g id="ratinvasion">
-            <t id="description">무리어미의 죽음으로 전투가 끝납니다.
-            연금술 시약을 얻기 위해 가능한 한 많은 역병에 감염된 성장을 파괴하십시오!</t>
-            <t id="NestDeath">둥지가 파괴되었습니다!</t>
-            <t id="MatriarchDeath">무리어미가 죽었습니다. 쥐들이 공포에 질려 도망치고 있습니다!</t>
-            <t id="RatSpawn">쥐들이 구멍에서 나온다!</t>
-            <t id="DayNotification">태양이 떠오르고 있다. 쥐들이 진정되고 있습니다.</t>
-            <t id="NightNotification">해가 지고 있다. 쥐가 사나워지고 있습니다!</t>
-            <t id="debrief">당신의 동료들은 ::rat:: 쥐를 죽이고 ::nest:: 전염병에 감염된 성장체를 파괴했습니다.</t>
-        </g>
-        <g id="ghostpack">
-            <t id="notify_nightmare_renfort">악몽이 방금 나타났습니다!</t>
-            <t id="unit_terror">::name::은(는) 두려움에 떨며 당신의 군대를 비겁하게 버리고 달리고 있습니다!</t>
-            <t id="enemy_terror">::name::은(는) 죽음을 두려워합니다!</t>
-        </g>
-        <g id="reach">
-            <t id="notify_plagueridden_renfort">더 많은 역병이 다가오고 있습니다!</t>
-            <t id="reach_objective">탈출 지역에 도달하여 동료들이 도망치도록 하십시오.</t>
-        </g>
-        <g id="forsakenvillage">
-            <t id="new_wave">역병에 휩싸인 몬스터들이 건물 안으로 들어가려고 합니다!</t>
-            <t id="search_desc">탈출구 찾기 스킬을 사용하여 게이지를 채우고 탈출하세요!</t>
-            <t id="forsaken_objective">힘내시고 탈출구를 찾으세요.</t>
-        </g>
-        <g id="survival">
-            <t id="remaining_rounds">다른 ::count:: 라운드를 위해 살아남으세요.</t>
-        </g>
-        <g id="escape">
-            <t id="escaped">전투에서 도망쳤다!</t>
-        </g>
-    </g>
-    <g id="skills">
-        <t id="range">범위: ::range::m</t>
-        <t id="right_click_preview_on">[RMB] 미리보기 잠금</t>
-        <t id="right_click_preview_off">[RMB] 미리보기 잠금 해제</t>
-        <g id="mode">
-            <t id="melee">근접</t>
-            <t id="meleeWithRange">근접 - 거리 ::range::m</t>
-            <t id="zone">::radius::m 범위</t>
-            <t id="shot">::range::m 사격</t>
-            <t id="move">::range::m 이동</t>
-            <t id="passive">패시브</t>
-            <t id="injury">부상</t>
-            <t id="immediate">즉시</t>
-            <t id="str_attrib">( 힘 )</t>
-            <t id="dex_attrib">( 정확도 )</t>
-        </g>
-        <g id="attr">
-            <t id="default_action">기본 행동</t>
-            <t id="need_item">필요</t>
-        </g>
-        <g id="warn">
-            <t id="cant_use_if_engaged">컴패니언이 전투 중인 경우 이 기술을 사용할 수 없습니다.</t>
-            <t id="cant_use_if_disengaged">컴패니언이 전투 중인 경우에만 이 기술을 사용할 수 있습니다.</t>
-            <t id="cant_use_dying">컴패니언이 죽으면 이 스킬을 사용할 수 없습니다.</t>
-            <t id="cant_end_turn">턴을 끝내려면 유닛 중 하나의 턴을 시작해야 합니다.</t>
-        </g>
-    </g>
-    <g id="gameover">
-        <t id="no_unit">당신의 마지막 동료가 당신의 부대를 떠났습니다.</t>
-        <t id="battle_lose">이 전투에서 모든 동료가 사망했습니다.</t>
-        <t id="accompany_die">::name::이(가) 죽었습니다.</t>
-        <t id="accompany_die_woman">::name::이(가) 죽었습니다.</t>
-        <t id="ruin_no_light">더 이상 <img src="icon/RuinsLight"/><b>빛</b>이 없습니다.</t>
-        <t id="ironmen">당신의 부대의 모험은 여기에서 끝납니다.</t>
-    </g>
-    <g id="tips">
-        <t id="tiredness">피로도</t>
-        <t id="tiredness_info">부대의 <b>피로도</b>를 확인하여 언제 캠프를 설정하고 휴식을 취해야 하는지 알 수 있습니다.
-        모닥불을 사용하여 멋진 식사를 요리하고 잠을 자십시오.</t>
-        <t id="rest_not_tired">당신의 부대는 이제 충분히 쉬었습니다.</t>
-        <t id="gold_info"><b>크라운</b>은 기본 통화입니다. 3일마다 동반자의 급여를 지불해야 합니다.
+<t id="fmt_dmg">::value:: 피해</t>
+<t id="list_name">::names:: 및 ::last::</t>
+<t id="level">레벨</t>
+<g id="unit_ranks">
+<t _id="aucun">없음</t>
+<t _id="lieutenant">중위</t>
+<t _id="capitaine">대위</t>
+</g>
+<g id="time">
+<t id="short_perday">/d</t>
+<t id="hours">::h:: 시간</t>
+<t id="day">하루 ::h::시간</t>
+<t id="days">::d::일 ::h::시간</t>
+<t id="current_time">::day::일, ::hour::시</t>
+<t id="current_time_month">::month::월, ::day::일, ::hour::시</t>
+<t id="current_day_month">::month::월, ::day::일</t>
+<t id="current_day">::day::일</t>
+<t id="short_days_label">(::days::d)</t>
+<t id="yesterday">어제</t>
+<t id="today">오늘</t>
+<t id="tomorrow">내일</t>
+<t id="days_ago">::days::일 전</t>
+<t id="days_future">::days::일 후</t>
+</g>
+<g id="trait_levels">
+<t _id="dbutant">풋내기</t>
+<t _id="novice">초보자</t>
+<t _id="apprenti">수습생</t>
+<t _id="compagnon">숙련자</t>
+<t _id="matre">달인</t>
+</g>
+<g id="unit_info">
+<t id="defense">방어</t>
+<t id="stuff">장비</t>
+<t id="skills">기술</t>
+<t id="status">부상 및 상태</t>
+<t id="exp">경험</t>
+<t id="attribs">속성</t>
+<t id="traits">특성</t>
+<t id="level">::level:: 레벨</t>
+<t id="levelMaxed">최대 레벨 도달</t>
+<t id="xp">XP</t>
+<t id="salary">임금</t>
+<t id="food">소비</t>
+<t id="crit_damages">크리티컬 데미지: <good>+::value::%</good></t>
+<t id="escape">탈출 능력</t>
+<t id="willpower_resolve_bonus"><b>::value:: 점수당:</b> 이 유닛은 전투에서 처음 죽을 때 살아남습니다(조우당 한 번).</t>
+<t id="attribute_upgrade"><influence>::value::</influence>마다 1개의 <img src="icon/UnitInfoLevelUp"/>이 증가합니다.</t>
+<t id="attribute_upgrade_add">[LMB] <img src="icon/UnitInfoLevelUp"/> 1 증가</t>
+<t id="attribute_upgrade_remove">[RMB] <img src="icon/UnitInfoLevelUp"/> 1 감소</t>
+</g>
+<g id="escape">
+<t id="desc">수감자는 휴식 중에 탈출할 수 있습니다.</t>
+<t id="escape_chance">다음 휴식 중 탈출 확률:</t>
+<t id="none"><good>없음</good></t>
+<t id="low"><good>낮은</good></t>
+<t id="medium"><warn>평균</warn></t>
+<t id="high"><bad>높은</bad></t>
+</g>
+<g id="happy_bonus">
+<t id="campfire">캠프파이어에 배정된 동료들</t>
+<t id="comfortable_fur">::unit::에 가까운 동료들</t>
+<t id="starvation">당신의 동료는 배고픕니다!</t>
+<t id="starvation2">동료들이 굶주리고 있습니다!</t>
+<t id="salaries_late">당신의 동료들은 임금 지연에 만족하지 않습니다!</t>
+<t id="salaries_late2">당신의 동료들은 임금 지연에 분노합니다!</t>
+<t id="bad_diet">식품 요구 사항이 충족되지 않음</t>
+<t id="rest_forest">숲에서 휴식</t>
+<t id="food_bonus">음식</t>
+<t id="other_bonus">기타 긍정적인 효과</t>
+<t id="other_malus">기타 부정적인 영향</t>
+<t id="smelly_odour">캠프에서 악취</t>
+<t id="bestfriend_adjacent">서로 옆에서 자고있는 가장 친한 친구</t>
+<t id="bestfriend_tool">캠프에서 동일한 도구에 할당된 가장 친한 친구</t>
+<t id="enemy_adjacent">나란히 잠든 적들</t>
+<t id="enemy_tool">캠프에서 동일한 도구에 할당된 적</t>
+</g>
+<g id="compass">
+<t _id="nord">북쪽</t>
+<t _id="nordest">북동</t>
+<t _id="est">동쪽</t>
+<t _id="sudest">남동</t>
+<t _id="sud">남쪽</t>
+<t _id="sudouest">남서</t>
+<t _id="ouest">서쪽</t>
+<t _id="nordouest">북서</t>
+</g>
+<g id="battle">
+<t id="allies">동맹</t>
+<t id="newRound">새로운 라운드가 시작됩니다.</t>
+<t id="end_turn">::unit::의 턴 종료 <key>Space</key></t>
+<t id="anotherUnitPlaying">다른 동료가 차례를 시작했습니다.</t>
+<t id="reinforcement">강화</t>
+<t id="knockout_successful">기절!</t>
+<t id="capture_successful">캡처!</t>
+<t id="willpower_resolve_bonus">의지력!</t>
+<t id="miss">빗나감</t>
+<t id="timeline_your_unit">이 라운드에 아직 참여하지 않은 모든 유닛을 사용할 수 있습니다.</t>
+<t id="timeline_unit">::name::이(가) 차례를 갖습니다.</t>
+<t id="timeline_end_round">라운드 종료</t>
+<t id="morale">적 유닛을 처치하여 사기를 높이고 더 빨리 승리를 쟁취하십시오.</t>
+<t id="cancelPendingSkill">클릭하여 "::skill::"을 시작하고 이 유닛의 턴을 시작합니다.</t>
+<t id="cancelReactionSkill">클릭하여 "::skill::"을 종료하고 이 유닛의 턴을 시작합니다.</t>
+<t id="bonus_ap_desc">이 전투에서만 사용할 수 있는 <apt>::count::</apt> <b>보너스 Valor Points</b>가 있습니다.</t>
+<t id="pending_skill_delay">이 유닛은 턴 시작 시 활성화될 스킬을 준비했습니다.</t>
+<t id="pending_skill_reaction">이 유닛은 다른 유닛의 턴에 발동하는 스킬을 가지고 있습니다.</t>
+<t id="notify_enemy_renfort">적 지원군이 온다!</t>
+<t id="notify_ally_renfort">연합군 지원군이 온다!</t>
+<t id="no_retreat"><bad>후퇴할 수 없습니다.</bad></t>
+<g id="notify">
+<t id="bionn_transformation">질병이 그녀를 극복하고 Bionn은 통제력을 잃습니다!</t>
+</g>
+</g>
+<g id="battlemode">
+<g id="common">
+<t id="unit_madness">::name::은(는) 미쳤습니다.</t>
+</g>
+<g id="arena">
+<t id="arenaRule">경기장의 특별 규칙</t>
+<t id="arenaRules">경기장의 특별 규칙</t>
+<t id="choosePlayerTeam">전투기를 선택하세요</t>
+<t id="playerTeam">당신의 팀</t>
+<t id="demand">요구 사항</t>
+<t id="reward">보상:</t>
+<t id="voxPopuliDesc">당신의 승리에 따라 군중은 당신을 존경합니다. 나머지 경쟁을 위해 업그레이드를 선택하십시오.</t>
+<t id="voxPopuliTitle">선물 선택</t>
+<t id="newRule">새로운 아레나 규칙:
+<b>::규칙::</b></t>
+<t id="confirmStartFight">이 팀을 등록하시겠습니까?</t>
+<t id="confirmStartNextFight">다음 전투를 시작하시겠습니까?</t>
+<t id="confirmStartChampion">챔피언에 도전하시겠습니까?</t>
+<t id="confirmActionEmpty"><bad>일부 유닛에는 선택한 보너스가 없습니다.</bad></t>
+<t id="confirmLeaveArena">이 경기장에서 모든 진행 상황을 잃으시겠습니까?</t>
+<t id="cantFight">이 대회에 참가하려면 4명의 동료를 등록해야 합니다.</t>
+<t id="unitAlreadyRegister">이미 등록된 유닛입니다.</t>
+</g>
+<g id="ratinvasion">
+<t id="description">무리어미의 죽음으로 전투가 끝납니다.
+연금술 시약을 얻기 위해 가능한 한 많은 역병에 감염된 성장을 파괴하십시오!</t>
+<t id="NestDeath">둥지가 파괴되었습니다!</t>
+<t id="MatriarchDeath">무리어미가 죽었습니다. 쥐들이 공포에 질려 도망치고 있습니다!</t>
+<t id="RatSpawn">쥐들이 구멍에서 나온다!</t>
+<t id="DayNotification">태양이 떠오르고 있다. 쥐들이 진정되고 있습니다.</t>
+<t id="NightNotification">해가 지고 있다. 쥐가 사나워지고 있습니다!</t>
+<t id="debrief">당신의 동료들은 ::rat:: 쥐를 죽이고 ::nest:: 전염병에 감염된 성장체를 파괴했습니다.</t>
+</g>
+<g id="ghostpack">
+<t id="notify_nightmare_renfort">악몽이 방금 나타났습니다!</t>
+<t id="unit_terror">::name::은(는) 두려움에 떨며 당신의 군대를 비겁하게 버리고 달리고 있습니다!</t>
+<t id="enemy_terror">::name::은(는) 죽음을 두려워합니다!</t>
+</g>
+<g id="reach">
+<t id="notify_plagueridden_renfort">더 많은 역병이 다가오고 있습니다!</t>
+<t id="reach_objective">탈출 지역에 도달하여 동료들이 도망치도록 하십시오.</t>
+</g>
+<g id="forsakenvillage">
+<t id="new_wave">역병에 휩싸인 몬스터들이 건물 안으로 들어가려고 합니다!</t>
+<t id="search_desc">탈출구 찾기 스킬을 사용하여 게이지를 채우고 탈출하세요!</t>
+<t id="forsaken_objective">힘내시고 탈출구를 찾으세요.</t>
+</g>
+<g id="survival">
+<t id="remaining_rounds">다른 ::count:: 라운드를 위해 살아남으세요.</t>
+</g>
+<g id="escape">
+<t id="escaped">전투에서 도망쳤다!</t>
+</g>
+</g>
+<g id="skills">
+<t id="range">범위: ::range::m</t>
+<t id="right_click_preview_on">[RMB] 미리보기 잠금</t>
+<t id="right_click_preview_off">[RMB] 미리보기 잠금 해제</t>
+<g id="mode">
+<t id="melee">근접</t>
+<t id="meleeWithRange">근접 - 거리 ::range::m</t>
+<t id="zone">::radius::m 범위</t>
+<t id="shot">::range::m 사격</t>
+<t id="move">::range::m 이동</t>
+<t id="passive">패시브</t>
+<t id="injury">부상</t>
+<t id="immediate">즉시</t>
+<t id="str_attrib">( 힘 )</t>
+<t id="dex_attrib">( 정확도 )</t>
+</g>
+<g id="attr">
+<t id="default_action">기본 행동</t>
+<t id="need_item">필요</t>
+</g>
+<g id="warn">
+<t id="cant_use_if_engaged">컴패니언이 전투 중인 경우 이 기술을 사용할 수 없습니다.</t>
+<t id="cant_use_if_disengaged">컴패니언이 전투 중인 경우에만 이 기술을 사용할 수 있습니다.</t>
+<t id="cant_use_dying">컴패니언이 죽으면 이 스킬을 사용할 수 없습니다.</t>
+<t id="cant_end_turn">턴을 끝내려면 유닛 중 하나의 턴을 시작해야 합니다.</t>
+</g>
+</g>
+<g id="gameover">
+<t id="no_unit">당신의 마지막 동료가 당신의 부대를 떠났습니다.</t>
+<t id="battle_lose">이 전투에서 모든 동료가 사망했습니다.</t>
+<t id="accompany_die">::name::이(가) 죽었습니다.</t>
+<t id="accompany_die_woman">::name::이(가) 죽었습니다.</t>
+<t id="ruin_no_light">더 이상 <img src="icon/RuinsLight"/><b>빛</b>이 없습니다.</t>
+<t id="ironmen">당신의 부대의 모험은 여기에서 끝납니다.</t>
+</g>
+<g id="tips">
+<t id="tiredness">피로도</t>
+<t id="tiredness_info">부대의 <b>피로도</b>를 확인하여 언제 캠프를 설정하고 휴식을 취해야 하는지 알 수 있습니다.
+모닥불을 사용하여 멋진 식사를 요리하고 잠을 자십시오.</t>
+<t id="rest_not_tired">당신의 부대는 이제 충분히 쉬었습니다.</t>
+<t id="gold_info"><b>크라운</b>은 기본 통화입니다. 3일마다 동반자의 급여를 지불해야 합니다.
 
-        다음 마감일: <b>::nextDueDate::</b>
+다음 마감일: <b>::nextDueDate::</b>
 
-        현재 총계: <gold>::gold::</gold>
-        임금: <gold>::salaries::</gold>
-        지불해야 하는 임금: <gold>::dueSalary::</gold></t>
-        <t id="mission_gold">이행된 계약: <gold>::gold::</gold></t>
-        <t id="food_info">각 휴식 전에 동반자에게 음식을 주어야 합니다. <b>식량</b>이 충분한지 확인하십시오.
+현재 총계: <gold>::gold::</gold>
+임금: <gold>::salaries::</gold>
+지불해야 하는 임금: <gold>::dueSalary::</gold></t>
+<t id="mission_gold">이행된 계약: <gold>::gold::</gold></t>
+<t id="food_info">각 휴식 전에 동반자에게 음식을 주어야 합니다. <b>식량</b>이 충분한지 확인하십시오.
 
-        재고: <food>::food::</food>
-        소비: <food>::conso::</food></t>
-        <t id="happy_info_new">부대의 <b>행복</b>은 시간이 지남에 따라 개선됩니다.
+재고: <food>::food::</food>
+소비: <food>::conso::</food></t>
+<t id="happy_info_new">부대의 <b>행복</b>은 시간이 지남에 따라 개선됩니다.
 
-        동료가 부대를 떠나지 않도록 긍정적인 상태를 유지해야 합니다.
+동료가 부대를 떠나지 않도록 긍정적인 상태를 유지해야 합니다.
 
-        현재 행복: <happy>::happy::</happy>
+현재 행복: <happy>::happy::</happy>
 
-        <::color0::><happy>::min::</happy> 동료가 당신의 부대를 떠나고 싶어할 것입니다!</::color0::>
-        <::color1::><happy>::bonus::</happy> ::bonus1Text::</::color1::>
-        <::color2::><happy>::max::</happy> ::bonus2Text::</::color2::>
+<::color0::><happy>::min::</happy> 동료가 당신의 부대를 떠나고 싶어할 것입니다!</::color0::>
+<::color1::><happy>::bonus::</happy> ::bonus1Text::</::color1::>
+<::color2::><happy>::max::</happy> ::bonus2Text::</::color2::>
 
-        <::color2::><happy>::max::</happy> 이상의 이득은 행복 점수당 <influence><b>::infl::</b></influence>을 부여합니다.</::color2::></t>
-        <t id="pick_found_item">[RMB] 가져가다</t>
-        <t id="buy_shop_item">[RMB] 구매 <gold>::price::</gold></t>
-        <t id="cant_buy_shop_item">[RMB] 구매 <gold><bad>::price::</bad></gold></t>
-        <t id="buy_shop_item_with">[RMB] 구매 <font color="#ffffff"><img src="item/::currency::"/>::price::</font></t>
-        <t id="cant_buy_shop_item_with">[RMB] 구매 <bad><img src="item/::currency::"/>::price::</bad></t>
-        <t id="sell_shop_item">[RMB] 판매 <gold>::price::</gold></t>
-        <t id="sell_shop_item_stolen">[RMB] 판매 <gold>::price::</gold> <bad><img src="icon/Suspicion"/> +::danger::</bad></t>
-        <t id="shop_ctrl_all"><comment>(Ctrl - 전체)</comment></t>
-        <t id="buy_shop_item_all">[RMB] 전체 구매 <gold>::price::</gold></t>
-        <t id="cant_buy_shop_item_all">[RMB] 전체 구매 <gold><bad>::price::</bad></gold></t>
-        <t id="buy_shop_item_with_all">[RMB] 전체 구매 <font color="#ffffff"><img src="item/::currency::"/>::price::</font></t>
-        <t id="cant_buy_shop_item_with_all">[RMB] 전체 구매 <bad><img src="item/::currency::"/>::price::</bad></t>
-        <t id="sell_shop_item_all">[RMB] 전체 판매 <gold>::price::</gold></t>
-        <t id="sell_shop_item_stolen_all">[RMB] 전체 판매 <gold>::price::</gold> <bad><img src="icon/Suspicion"/> +::danger::</bad></t>
-        <t id="steal_item">[RMB] 도둑질 <bad><img src="icon/Suspicion"/> +::danger::</bad></t>
-        <t id="item_discounted_price"><good>(일시적으로 가격 인하)</good></t>
-        <t id="unit_equip_item">[RMB] 장비</t>
-        <t id="unit_heal_injury">[RMB] 부상 치료</t>
-        <t id="item_require_level">::level::레벨 필요</t>
-        <t id="stolen_item_label">(도난당한 물건)</t>
-        <t id="item_bonus">::name:: <img src="icon/::icon::"/><good>::value::</good></t>
-        <t id="item_convert">::name:: <img src="item/::item::"/><good>+::count::</good></t>
-        <t id="item_skill"><::color::>::name::</::color::> 스킬</t>
-        <t id="item_diet_info">해당 식단:</t>
-        <t id="skill_item_usage">남은 사용량: <b>::count::</b><img src="::icon::"/></t>
-        <t id="cant_equip_this_item">이 아이템은 장착할 수 없습니다</t>
-        <t id="cant_equip_no_armor_slot">갑옷에 여유 슬롯이 없습니다.</t>
-        <t id="cant_equip_shield">::name:: 방패를 장착할 수 없습니다.</t>
-        <t id="cant_equip_this_weapon">::name:: 이 유형의 무기는 장착할 수 없습니다.</t>
-        <t id="cant_equip_armor">::name:: "::armorType::"을 장착할 수 없습니다.</t>
-        <t id="cant_equip_req_level">레벨 부족</t>
-        <t id="cant_equip_req_attribute">::name:: 부족</t>
-        <t id="can_equip_armor">::name:: 장비 가능</t>
-        <t id="cant_equip_left_hand">::name::은(는) 왼손을 이미 사용하고 있습니다.</t>
-        <t id="cant_equip_madness">::name::이(가) 미쳐 이 아이템을 장착할 수 없습니다.</t>
-        <t id="clear_armor_slots">[RMB] <small>+Shift</small> 강화 제거(<img src="item/::item::"/> ::count::)</t>
-        <t id="cant_choose_specialization"><bad>이 전문화에는 <img src="skill/::skill::"/>::name:: 기술이 필요합니다.</bad></t>
-        <t id="unit_salary">::name:: <gold>::daily::</gold>에 지급된 임금. 당신은 여전히 그들에게 <gold>::due::</gold> 만큼의 임금을 빚지고 있습니다.</t>
-        <t id="unit_food">일일 음식 섭취량</t>
-        <t id="unit_food_trait">가장 좋아하는 음식:</t>
-        <t id="unit_badDiet_days"><bad>::count::일 동안 충족되지 않은 식품 요구 사항</bad></t>
-        <t id="unit_noDrinking_days">::count:: 술을 마시지 않은 날</t>
-        <t id="unit_recruitSalary">::name:: 채용시 급여 <gold>::daily::</gold>.</t>
-        <t id="empty_slot">갑옷 레이어 사용 가능</t>
-        <t id="knockout_unit">이 전사는 전투에서 기절했고 포로로 잡혔습니다.
+<::color2::><happy>::max::</happy> 이상의 이득은 행복 점수당 <influence><b>::infl::</b></influence>을 부여합니다.</::color2::></t>
+<t id="pick_found_item">[RMB] 가져가다</t>
+<t id="buy_shop_item">[RMB] 구매 <gold>::price::</gold></t>
+<t id="cant_buy_shop_item">[RMB] 구매 <gold><bad>::price::</bad></gold></t>
+<t id="buy_shop_item_with">[RMB] 구매 <font color="#ffffff"><img src="item/::currency::"/>::price::</font></t>
+<t id="cant_buy_shop_item_with">[RMB] 구매 <bad><img src="item/::currency::"/>::price::</bad></t>
+<t id="sell_shop_item">[RMB] 판매 <gold>::price::</gold></t>
+<t id="sell_shop_item_stolen">[RMB] 판매 <gold>::price::</gold> <bad><img src="icon/Suspicion"/> +::danger::</bad></t>
+<t id="shop_ctrl_all"><comment>(Ctrl - 전체)</comment></t>
+<t id="buy_shop_item_all">[RMB] 전체 구매 <gold>::price::</gold></t>
+<t id="cant_buy_shop_item_all">[RMB] 전체 구매 <gold><bad>::price::</bad></gold></t>
+<t id="buy_shop_item_with_all">[RMB] 전체 구매 <font color="#ffffff"><img src="item/::currency::"/>::price::</font></t>
+<t id="cant_buy_shop_item_with_all">[RMB] 전체 구매 <bad><img src="item/::currency::"/>::price::</bad></t>
+<t id="sell_shop_item_all">[RMB] 전체 판매 <gold>::price::</gold></t>
+<t id="sell_shop_item_stolen_all">[RMB] 전체 판매 <gold>::price::</gold> <bad><img src="icon/Suspicion"/> +::danger::</bad></t>
+<t id="steal_item">[RMB] 도둑질 <bad><img src="icon/Suspicion"/> +::danger::</bad></t>
+<t id="item_discounted_price"><good>(일시적으로 가격 인하)</good></t>
+<t id="unit_equip_item">[RMB] 장비</t>
+<t id="unit_heal_injury">[RMB] 부상 치료</t>
+<t id="item_require_level">::level::레벨 필요</t>
+<t id="stolen_item_label">(도난당한 물건)</t>
+<t id="item_bonus">::name:: <img src="icon/::icon::"/><good>::value::</good></t>
+<t id="item_convert">::name:: <img src="item/::item::"/><good>+::count::</good></t>
+<t id="item_skill"><::color::>::name::</::color::> 스킬</t>
+<t id="item_diet_info">해당 식단:</t>
+<t id="skill_item_usage">남은 사용량: <b>::count::</b><img src="::icon::"/></t>
+<t id="cant_equip_this_item">이 아이템은 장착할 수 없습니다</t>
+<t id="cant_equip_no_armor_slot">갑옷에 여유 슬롯이 없습니다.</t>
+<t id="cant_equip_shield">::name:: 방패를 장착할 수 없습니다.</t>
+<t id="cant_equip_this_weapon">::name:: 이 유형의 무기는 장착할 수 없습니다.</t>
+<t id="cant_equip_armor">::name:: "::armorType::"을 장착할 수 없습니다.</t>
+<t id="cant_equip_req_level">레벨 부족</t>
+<t id="cant_equip_req_attribute">::name:: 부족</t>
+<t id="can_equip_armor">::name:: 장비 가능</t>
+<t id="cant_equip_left_hand">::name::은(는) 왼손을 이미 사용하고 있습니다.</t>
+<t id="cant_equip_madness">::name::이(가) 미쳐 이 아이템을 장착할 수 없습니다.</t>
+<t id="clear_armor_slots">[RMB] <small>+Shift</small> 강화 제거(<img src="item/::item::"/> ::count::)</t>
+<t id="cant_choose_specialization"><bad>이 전문화에는 <img src="skill/::skill::"/>::name:: 기술이 필요합니다.</bad></t>
+<t id="unit_salary">::name:: <gold>::daily::</gold>에 지급된 임금. 당신은 여전히 그들에게 <gold>::due::</gold> 만큼의 임금을 빚지고 있습니다.</t>
+<t id="unit_food">일일 음식 섭취량</t>
+<t id="unit_food_trait">가장 좋아하는 음식:</t>
+<t id="unit_badDiet_days"><bad>::count::일 동안 충족되지 않은 식품 요구 사항</bad></t>
+<t id="unit_noDrinking_days">::count:: 술을 마시지 않은 날</t>
+<t id="unit_recruitSalary">::name:: 채용시 급여 <gold>::daily::</gold>.</t>
+<t id="empty_slot">갑옷 레이어 사용 가능</t>
+<t id="knockout_unit">이 전사는 전투에서 기절했고 포로로 잡혔습니다.
 
-        [LMB] 행동
-        [RMB] 조사</t>
-        <t id="knockout_unit_cannot">이 전사는 전투에서 기절했고 포로가 될 수 없습니다(<img src="item/Chains"/><bad>체인 1개</bad> 필요).
+[LMB] 행동
+[RMB] 조사</t>
+<t id="knockout_unit_cannot">이 전사는 전투에서 기절했고 포로가 될 수 없습니다(<img src="item/Chains"/><bad>체인 1개</bad> 필요).
 
-        [LMB] 행동
-        [RMB] 조사</t>
-        <t id="knockout_unit_locked">이 전사는 전투 중에 기절했습니다.
+[LMB] 행동
+[RMB] 조사</t>
+<t id="knockout_unit_locked">이 전사는 전투 중에 기절했습니다.
 
-        [RMB] 조사</t>
-        <t id="capture_animal">이 동물은 전투에서 포획되어 당신의 부대에 추가되었습니다.
+[RMB] 조사</t>
+<t id="capture_animal">이 동물은 전투에서 포획되어 당신의 부대에 추가되었습니다.
 
-        [LMB] 행동
-        [RMB] 조사</t>
-        <t id="bury_unit">이 전사는 전투 중에 사망했습니다. 당신의 군대는 그들의 희생을 기리기를 원합니다.
+[LMB] 행동
+[RMB] 조사</t>
+<t id="bury_unit">이 전사는 전투 중에 사망했습니다. 당신의 군대는 그들의 희생을 기리기를 원합니다.
 
-        [LMB] 묻어주기</t>
-        <t id="action_name_default">조사</t>
-        <t id="action_name_talk">말하기</t>
-        <t id="element_action">[LMB] ::action::</t>
-        <t id="element_action_right">[RMB] ::action::</t>
-        <t id="element_action_npc">::name::
+[LMB] 묻어주기</t>
+<t id="action_name_default">조사</t>
+<t id="action_name_talk">말하기</t>
+<t id="element_action">[LMB] ::action::</t>
+<t id="element_action_right">[RMB] ::action::</t>
+<t id="element_action_npc">::name::
 
-        [LMB]::action::
-        [RMB] 조사</t>
-        <t id="chest_locked">잠김
+[LMB]::action::
+[RMB] 조사</t>
+<t id="chest_locked">잠김
 
-        [RMB] ::item:: 사용</t>
-        <t id="ruins_light_cost">[LMB] ::action:: <img src="icon/RuinsLight"/><::color::>::value::</::color::></t>
-        <g id="ruins">
-            <t id="action_unexplored">조사</t>
-            <t id="action_explored">파내기</t> <!-- 원문은 Borrow 인데, ruins에서의 action이면 Burrow 아니었을까 -->
-        </g>
-        <t id="gather_item">::name::
-        ::infos::
-        ::button:: ::action::</t>
-        <t id="gather_def_action">줍기</t>
-        <t id="recruit_action">모집</t>
-        <t id="recruit_cost">모집 비용 ::cost::</t>
-        <t id="dialog_requires">::cost:: 필요</t>
-        <t id="dialog_wanted">수배 <bad><img src="icon/Suspicion"/> +::range::</bad></t>
-        <t id="dialog_wanted_gains">수배 <good><img src="icon/Suspicion"/> ::range::</good></t>
-        <t id="dialog_gains">획득 ::gains::</t>
-        <t id="dialog_gains_mission">약속된 보상</t>
-        <t id="craft_requires_ingredients">구성 요소:</t>
-        <t id="cancel_action">취소</t>
-        <t id="cancel_daily_rest">남은 휴식: ::count::</t> <!-- 원문은 Rest Left: -->
-        <t id="rank_rest">오늘은 이미 랭크를 할당했습니다.</t>
-        <g id="choose_unit">
-            <t id="action_tip_no_job">::name::
+[RMB] ::item:: 사용</t>
+<t id="ruins_light_cost">[LMB] ::action:: <img src="icon/RuinsLight"/><::color::>::value::</::color::></t>
+<g id="ruins">
+<t id="action_unexplored">조사</t>
+<t id="action_explored">파내기</t> <!-- 원문은 Borrow 인데, ruins에서의 action이면 Burrow 아니었을까 -->
+</g>
+<t id="gather_item">::name::
+::infos::
+::button:: ::action::</t>
+<t id="gather_def_action">줍기</t>
+<t id="recruit_action">모집</t>
+<t id="recruit_cost">모집 비용 ::cost::</t>
+<t id="dialog_requires">::cost:: 필요</t>
+<t id="dialog_wanted">수배 <bad><img src="icon/Suspicion"/> +::range::</bad></t>
+<t id="dialog_wanted_gains">수배 <good><img src="icon/Suspicion"/> ::range::</good></t>
+<t id="dialog_gains">획득 ::gains::</t>
+<t id="dialog_gains_mission">약속된 보상</t>
+<t id="craft_requires_ingredients">구성 요소:</t>
+<t id="cancel_action">취소</t>
+<t id="cancel_daily_rest">남은 휴식: ::count::</t> <!-- 원문은 Rest Left: -->
+<t id="rank_rest">오늘은 이미 랭크를 할당했습니다.</t>
+<g id="choose_unit">
+<t id="action_tip_no_job">::name::
 
-            [LMB] ::action::</t>
-            <t id="action_tip_ok">::name::
+[LMB] ::action::</t>
+<t id="action_tip_ok">::name::
 
-            [LMB] ::action::
-            [RMB] 직업 선택</t>
-            <t id="action_tip_disabled">::name::
+[LMB] ::action::
+[RMB] 직업 선택</t>
+<t id="action_tip_disabled">::name::
 
-            ::reasons::
-            [RMB] ::action::</t>
-            <t id="action_assign_job">[LMB] ::action::</t>
-            <t id="action">::name::
+::reasons::
+[RMB] ::action::</t>
+<t id="action_assign_job">[LMB] ::action::</t>
+<t id="action">::name::
 
-            [LMB] ::action::
-            [RMB] ::right_action::</t>
-            <t id="validation_tip_disabled">::reasons::</t>
-            <t id="inspect_action">조사</t>
-            <t id="choose_job_action">직업 선택</t>
-            <t id="default_action">선택</t>
-            <t id="title"><font color="#FFF">::traitName:</font>을 선택하세요.</t>
-            <t id="name_unit">동료</t>
-            <t id="not_allowed">여기에서는 이 유닛를 사용할 수 없습니다.</t>
-            <t id="injured">부상당한 동료</t>
-            <t id="req_trait_level">::trait:: ::level:: 필요</t>
-            <t id="need_prisoner">포로여야 합니다.</t>
-            <t id="need_no_prisoner">포로여서는 안됩니다.</t>
-            <t id="should_be_type">::name::여야 합니다.</t>
-            <t id="job_required">::name:: 초보자여야 합니다.</t>
-            <t id="level_required">::value:: 레벨이어야 합니다.</t>
-            <t id="item_required">::name::이 있어야 합니다.</t>
-            <t id="wrong_job">::name::이어야 합니다.</t>
-            <t id="no_job">직업 없음</t>
-            <t id="select_count_require">::count:: 유닛 필요</t>
-            <t id="types_separator">또는</t>
+[LMB] ::action::
+[RMB] ::right_action::</t>
+<t id="validation_tip_disabled">::reasons::</t>
+<t id="inspect_action">조사</t>
+<t id="choose_job_action">직업 선택</t>
+<t id="default_action">선택</t>
+<t id="title"><font color="#FFF">::traitName:</font>을 선택하세요.</t>
+<t id="name_unit">동료</t>
+<t id="not_allowed">여기에서는 이 유닛를 사용할 수 없습니다.</t>
+<t id="injured">부상당한 동료</t>
+<t id="req_trait_level">::trait:: ::level:: 필요</t>
+<t id="need_prisoner">포로여야 합니다.</t>
+<t id="need_no_prisoner">포로여서는 안됩니다.</t>
+<t id="should_be_type">::name::여야 합니다.</t>
+<t id="job_required">::name:: 초보자여야 합니다.</t>
+<t id="level_required">::value:: 레벨이어야 합니다.</t>
+<t id="item_required">::name::이 있어야 합니다.</t>
+<t id="wrong_job">::name::이어야 합니다.</t>
+<t id="no_job">직업 없음</t>
+<t id="select_count_require">::count:: 유닛 필요</t>
+<t id="types_separator">또는</t>
 </g>
 <t id="inventory_weight">동료의 용량: ::수송::
- 인벤토리 무게: ::inv::
- 캠프의 무게: ::camp::</t>
+인벤토리 무게: ::inv::
+캠프의 무게: ::camp::</t>
 <t id="inventory_weight_over">당신은 너무 많은 무게를 짊어지고 있습니다!
 캐리지를 업그레이드하거나 무거운 물건을 내리십시오.</t>
 <t id="inventory_full">인벤토리가 가득 찼습니다</t>
@@ -541,7 +541,7 @@
 그들을 내보내고 전투에서 이기고 싶습니까?</t>
 <t id="battle_end_turn_without_playing">아무 조치도 취하지 않고 ::name::의 차례를 끝내시겠습니까?</t>
 <t id="battle_dying_unit_retreat">::이름:: 죽어가고 있습니다. 그들이 죽으면 당신은 패배할 것입니다!
- 즉시 후퇴하시겠습니까?</t>
+즉시 후퇴하시겠습니까?</t>
 <t id="item_convert_action">::액션:: ::아이템::?</t>
 <t id="rename_unit">::unitName::에 어떤 별명을 붙이고 싶으신가요?</t>
 <t id="message_accompany">::name::이(가) 당신의 군대에 합류했습니다.</t>
@@ -770,7 +770,7 @@
 <t id="assign_remaining_time">[JOBASSIGN] 현재 연구는 ::count:: Rests에서 종료됩니다.</t>
 <t id="unassign_remaining_time">지정된 컴패니언이 없습니다. 다음 휴식 중에는 새로운 발견이 이루어지지 않습니다.</t>
 <t id="confirm_cancel">현재 연구를 중단하시겠습니까?
- 이 항목에서 수행한 작업을 잃게 됩니다.</t>
+이 항목에서 수행한 작업을 잃게 됩니다.</t>
 </g>
 <g id="campChest">
 <t id="moveTo_chest">아이템을 가슴에 넣기</t>
@@ -782,7 +782,7 @@
 <t id="remove_action">시체를 제거</t>
 <t id="drop_action">시체를 버리십시오</t>
 <t id="confirm_drop">이 몸은 부패가 심하여 보관할 수 없습니다.
- 파괴?</t>
+파괴?</t>
 <t id="days_count">::count:: day(s)에 대해 표시됨</t>
 <t id="smelly_odour_warning">캠프에 만연한 악취로 동료들은 불편을 겪고 있습니다.</t>
 </g>
@@ -1015,7 +1015,7 @@
 <t id="first_wanted">당신은 이 절도를 위해 경비대에 의해 수배될 것입니다. 계속하시겠습니까?</t>
 <t id="reason_sell_stolen">도난품 재판매</t>
 <t id="cannot_because_wanted">당신의 악행이 퍼졌습니다.
- 관심을 끌지 않고 아무것도 훔치는 것은 이제 불가능합니다.</t>
+관심을 끌지 않고 아무것도 훔치는 것은 이제 불가능합니다.</t>
 <t id="sell_stolen_wanted">물품의 출처가 의심스러워서 수배되는 동안에는 이곳에서 판매할 수 없습니다.</t>
 <t id="sell_stolen_fail">당신의 아이템의 출처가 의심스러워서 당신은 그 아이템을 팔 수 없었습니다.
 당신은 이제 구함입니다. 가능한 한 빨리 그 지역을 떠나야 합니다!</t>
@@ -1266,9 +1266,9 @@ Companion은 Guard에게 넘겨져 "::where::"로 보내졌습니다.
 </g>
 <t id="scale_mode_help">두 가지 방법으로 Wartales의 세계를 탐험할 수 있습니다.
 
- - 무료: 완전한 자유로 세계를 돌아다닙니다. 적들은 당신의 힘이 증가함에 따라 적응하여 팀의 능력에 맞는 난이도를 보장합니다.
+- 무료: 완전한 자유로 세계를 돌아다닙니다. 적들은 당신의 힘이 증가함에 따라 적응하여 팀의 능력에 맞는 난이도를 보장합니다.
 
- - 지역 고정: 세계의 각 지역에는 처음부터 정해진 난이도가 있습니다. 더 위험한 지역을 탐험하고 더 강력한 적과 싸우기 전에 병력을 확장하고 개선해야 합니다.</t>
+- 지역 고정: 세계의 각 지역에는 처음부터 정해진 난이도가 있습니다. 더 위험한 지역을 탐험하고 더 강력한 적과 싸우기 전에 병력을 확장하고 개선해야 합니다.</t>
 <g id="start_texts">
 <t id="adventurers">당신의 동료는 모험을 찾아 떠나고 있습니다!
 
