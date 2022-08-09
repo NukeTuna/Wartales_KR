@@ -14,7 +14,7 @@
 <text>확인</text>
 </ConfirmOk>
 <ConfirmNo>
-<text>아니</text>
+<text>거절</text>
 </ConfirmNo>
 <ConfirmMessage>
 <text>계속하다</text>
@@ -29,7 +29,7 @@
 <text>다음</text>
 </Next>
 <Previous>
-<text>이전의</text>
+<text>이전</text>
 </Previous>
 <AdminOnly>
 <text>[관리자]</text>
@@ -50,7 +50,7 @@
 <text>출구</text>
 </PlaceExit>
 <RuinGoBack>
-<text>뒤로 돌아 라</text>
+<text>돌아가기</text>
 <desc>이전 방으로 돌아갑니다.</desc>
 </RuinGoBack>
 <NextDialog>
@@ -90,7 +90,7 @@
 <text>읽다</text>
 </DlgRead>
 <DlgOpen>
-<text>열려 있는</text>
+<text>열다</text>
 </DlgOpen>
 <DlgExecute>
 <text>실행하다</text>
@@ -147,10 +147,10 @@
 <text>설득하다</text>
 </DlgConvince>
 <DlgSpare>
-<text>여분의</text>
+<text>나눠주다</text>
 </DlgSpare>
 <MissionReward>
-<text>현상금을 모으다</text>
+<text>현상금을 수령하다</text>
 </MissionReward>
 <OpenMissionBoard>
 <text>검토</text>
@@ -166,7 +166,7 @@
 <text>수용하다</text>
 </MissionAccepted>
 <DlgThrow>
-<text>보고다</text>
+<text>버리다</text>
 </DlgThrow>
 <DlgRepeat>
 <text>반복하다</text>
@@ -218,16 +218,16 @@
 <text>수리하다</text>
 </RepairArmor>
 <RepairInventory>
-<text>수리 재고</text>
+<text>인벤토리에 든 아이템 수리</text>
 </RepairInventory>
 <RepairAll>
-<text>모두 고쳐주세요</text>
+<text>모두 수리요</text>
 </RepairAll>
 <CureAll>
 <text>모두 치유</text>
 </CureAll>
 <LootAll>
-<text>전리품</text>
+<text>모두 갖는다</text>
 </LootAll>
 <StealMode>
 <text>훔치다</text>
@@ -243,25 +243,25 @@
 </ChestPay>
 <CampFireEatArrow>
 <text>식사</text>
-<desc>필요한 양의 음식을 할당하여 병력을 먹입니다.</desc>
+<desc>필요한 양의 음식을 할당하여 부대를 먹입니다.</desc>
 </CampFireEatArrow>
 <CampFireTired>
-<text>캠프 불</text>
+<text>캠프파이어</text>
 <desc>동료들은 쉬어야 합니다.</desc>
 </CampFireTired>
 <CampDialog>
 <text>말하다</text>
 </CampDialog>
 <ASSIGN>
-<text>할당된 동료:</text>
+<text>배치된 동료:</text>
 </ASSIGN>
 <ConverterToolActionArrow>
 <text>생산</text>
-<desc>재료를 배치하여 생산을 시작합니다.</desc>
+<desc>생산을 위해 재료를 배치합니다</desc>
 </ConverterToolActionArrow>
 <StakeToolArrow>
-<text>푹 찌르다</text>
-<desc>기둥에 몸을 꽂다</desc>
+<text>꿰놓기</text>
+<desc>말뚝에 몸을 꿰놓다</desc>
 </StakeToolArrow>
 <ChooseRank>
 <text>임명 ::순위::</text>
@@ -271,10 +271,10 @@
 <text>새로운 이름 ::rank::</text>
 </GiveRank>
 <MissingResource>
-<desc>&lt;bad&gt;비활성: 리소스가 없습니다.&lt;/bad&gt;</desc>
+<desc>&lt;bad&gt;비활성: 자원이 없습니다.&lt;/bad&gt;</desc>
 </MissingResource>
 <MissingAssign>
-<desc>&lt;bad&gt;비활성: 할당이 누락되었습니다.&lt;/bad&gt;</desc>
+<desc>&lt;bad&gt;비활성: 배치된 용병이 없습니다.&lt;/bad&gt;</desc>
 </MissingAssign>
 <StakeWarning>
 <desc>&lt;bad&gt;부패가 심합니다.&lt;/bad&gt;</desc>
@@ -295,14 +295,14 @@
 <text>이글</text>
 </UnitStatusCaptured>
 <UnitMenu>
-<text>동반자 관리</text>
+<text>동료 관리</text>
 </UnitMenu>
 <Relationship>
 <text>관계</text>
-<desc>당신의 동료는 관계를 구축할 수 있습니다. 증오에서 사랑에 이르기까지 두 동료 사이의 관계는 상호 작용에 따라 진화할 수 있습니다.</desc>
+<desc>동료들 사이에 관계를 구축할 수 있습니다. 증오에서 사랑에 이르기까지 두 동료 사이의 관계는 상호 작용에 따라 발전할 수 있습니다.</desc>
 </Relationship>
 <RelationshipBestFriend>
-<desc>가장 친한 친구는 캠프 또는 전투에서 상호 작용할 때 보너스를 얻습니다.</desc>
+<desc>절친들은 캠프 또는 전투에서 상호 작용할 때 보너스를 얻습니다.</desc>
 </RelationshipBestFriend>
 <RelationshipHate>
 <desc>서로를 미워하는 동료들 사이의 상호작용은 부대에 해로운 영향을 미칠 수 있으므로 피하십시오.</desc>
@@ -337,7 +337,7 @@
 </RuinsLight>
 <NoiseForsakenVillage>
 <text>소음</text>
-<desc>원정대의 행동은 역병에 휩싸일 수 있는 소음을 유발할 수 있습니다.</desc>
+<desc>탐사대의 행동은 역병에 걸린 자들의 주의를 끌 수 있는 소음을 유발할 수 있습니다.</desc>
 </NoiseForsakenVillage>
 <Companions>
 <text>동반자</text>
@@ -373,11 +373,11 @@
 </PathMenu>
 <ShowPathTitles>
 <text>제목</text>
-<desc>이 경로에 사용할 수 있는 제목 표시</desc>
+<desc>이 경로에 사용할 수 있는 호칭 표시</desc>
 </ShowPathTitles>
 <PathMight>
-<text>힘과 힘</text>
-<desc>권세와 권세의 길은 위험과 무시무시한 적들로 가득 차 있지만, 승리하는 자들에게는 큰 영광이 기다리고 있습니다. 최고의 갑옷을 만들고, 가장 용감한 동료를 모집하고, 싸워서 당신의 이름이 다섯 왕국의 가장 먼 곳까지 울려 퍼지도록 하십시오.</desc>
+<text>힘과 권력</text>
+<desc>힘과 권력의 길은 위험과 무시무시한 적들로 가득 차 있지만, 승리하는 자들에게는 큰 영광이 기다리고 있습니다. 최고의 갑옷을 만들고, 가장 용감한 동료를 모집하고, 싸워서 당신의 이름이 다섯 왕국의 가장 먼 곳까지 울려 퍼지도록 하십시오.</desc>
 </PathMight>
 <PathTrade>
 <text>무역과 부</text>
@@ -385,7 +385,7 @@
 </PathTrade>
 <PathCrime>
 <text>범죄와 혼돈</text>
-<desc>상류층에게 혐오를 받고 경비병에게 저주를 받은 범죄와 혼돈의 길은 당신을 위험한 여행으로 안내할 것입니다. 그러나 습격, 절도, 대상 공격 및 살인을 통해 오왕국의 서민이나 박해자의 수호자가 될 수 있습니다.</desc>
+<desc>상류층에게 혐오를 받고 경비병에게 저주를 받은 범죄와 혼돈의 길은 당신을 위험한 여행으로 안내할 것입니다. 그러나 습격, 절도, 대상 공격 및 살인을 통해 오왕국의 서민이나 박해받는 자들의 수호자가 될 수 있습니다.</desc>
 </PathCrime>
 <PathKnowledge>
 <text>신비와 지혜</text>
@@ -413,30 +413,30 @@
 <text>눈</text>
 </WeatherSnow>
 <WeatherSnowStorm>
-<text>눈뜨다</text>
+<text>눈보라</text>
 </WeatherSnowStorm>
 <MoraleGalvanized>
-<desc>당신의 유닛은 아연 도금 처리되어 그들이 입히는 피해가 크게 증가합니다.</desc>
+<desc>당신의 대원들이 흥분해서 데미지가 훨씬 증가합니다.</desc>
 </MoraleGalvanized>
 <MoraleWin>
 <desc>당신은 전투에서 승리합니다. 상대방은 압도되어 도망치려고 합니다.</desc>
 </MoraleWin>
 <WillPlaySoon>
-<desc>다음으로 플레이할 유닛</desc>
+<desc>다음으로 조작할 유닛</desc>
 </WillPlaySoon>
 <Retreat>
 <text>후퇴</text>
 <desc>전투를 피하세요! 동료의 갑옷이 손상되고 부상을 입을 위험이 있습니다. 또한 &lt;happy&gt;[VALUE]&lt;/happy&gt;도 잃게 됩니다.</desc>
 </Retreat>
 <BackToMainUnit>
-<text>반품</text>
-<desc>다른 동료가 차례를 시작했습니다. 활성 도우미로 돌아가려면 클릭합니다.</desc>
+<text>돌아가다</text>
+<desc>다른 동료가 차례를 시작했습니다. 활성화 된 동료로 돌아가려면 클릭합니다.</desc>
 </BackToMainUnit>
 <Objectives>
 <text>목적</text>
 </Objectives>
 <UnitFleeBattle>
-<text>서두르다!</text>
+<text>도망치다!</text>
 </UnitFleeBattle>
 <GiveUp>
 <text>포기하다</text>
@@ -475,21 +475,21 @@
 </MiniMap>
 <Grimoire>
 <text>개요서 [KEY_Grimoire]</text>
-<desc>&lt;b&gt;개요&lt;/b&gt;는 당신의 부대가 배울 수 있는 모든 청사진, 패턴 및 조리법의 모음입니다.</desc>
+<desc>&lt;b&gt;개요&lt;/b&gt;는 당신의 부대가 배울 수 있는 모든 설계도, 패턴 및 조리법의 모음입니다.</desc>
 </Grimoire>
 <BattleCancel>
 <text>취소</text>
 </BattleCancel>
 <OutlawsCancel>
 <text>협상하다</text>
-<desc>왕관과 영향력을 사용하여 이 그룹이 당신을 놓아주도록 설득하십시오.</desc>
+<desc>돈과 영향력을 사용하여 이 그룹이 당신을 놓아주도록 설득하십시오.</desc>
 </OutlawsCancel>
 <WolfCancel>
-<text>괴롭히다</text>
-<desc>기분 전환을 위해 고기를 바닥에 던지고 도망칩니다.</desc>
+<text>유인하다</text>
+<desc>주의를 끌기 위해 고기를 바닥에 던지고 도망칩니다.</desc>
 </WolfCancel>
 <BoarCancel>
-<text>괴롭히다</text>
+<text>유인하다</text>
 <desc>이 굶주린 멧돼지는 무엇이든 먹습니다.</desc>
 </BoarCancel>
 <MerchantLog>
@@ -518,7 +518,7 @@
 <text>놀다</text>
 </SongPlay>
 <CraftAnvil>
-<text>단조 공장</text>
+<text>작업대</text>
 </CraftAnvil>
 <CraftCookingPot>
 <text>요리하다</text>
@@ -527,10 +527,10 @@
 <text>준비하다</text>
 </CraftApothecaryTable>
 <CraftDefault>
-<text>선박</text>
+<text>선제작박</text>
 </CraftDefault>
 <UnitChain>
-<text>포착</text>
+<text>포획</text>
 </UnitChain>
 <UnitCaptureAnimal>
 <text>캠프에 추가</text>
@@ -545,19 +545,19 @@
 <text>실행하다</text>
 </UnitKill>
 <UnitFree>
-<text>무료</text>
+<text>놓아주다</text>
 </UnitFree>
 <UnitMove>
 <text>이동하다</text>
 </UnitMove>
 <UnitCraft>
-<text>짓다</text>
+<text>만들다</text>
 </UnitCraft>
 <CampRotate>
 <text>회전</text>
 </CampRotate>
 <AttributeUpgrade>
-<text>경력 계획</text>
+<text>경력설계</text>
 <desc>영향력을 사용하여 레벨업 시 적성에 1&lt;img src="icon/UnitInfoLevelUp"/&gt;을 추가할 수 있습니다.</desc>
 </AttributeUpgrade>
 <UnitStatusLightDamage>
@@ -573,14 +573,14 @@
 <text>그들의 마지막 싸움이었다...</text>
 </UnitStatusDead>
 <UnitStatusAfraid>
-<text>이 부대는 전투 중 부대를 탈출했습니다.</text>
+<text>이 대원은 전투 중 부대를 탈출했습니다.</text>
 </UnitStatusAfraid>
 <AptitudePoint>
 <text>적성 점수</text>
 <desc>&lt;b&gt;적성 포인트&lt;/b&gt;는 동료의 특성을 향상시키는 데 사용할 수 있습니다.</desc>
 </AptitudePoint>
 <ActivityInjuredUnit>
-<text>다쳐서</text>
+<text>부상</text>
 </ActivityInjuredUnit>
 <Backstab>
 <text>매복</text>
@@ -610,7 +610,7 @@
 <text>지불해야 할 급여가 &lt;gold&gt;::due::&lt;/gold&gt;입니다.</text>
 </NotifySalary>
 <NotifyUnitExhausted>
-<text>::name:: 피로로 사망했습니다. 당신은 캠프를 설정하고 휴식을 취해야합니다!</text>
+<text>::name::가 피로로 사망했습니다. 당신은 캠프를 만들고 휴식을 취해야합니다!</text>
 </NotifyUnitExhausted>
 <NotifyLearnTrait>
 <text>::name::이 ::job::이 되었습니다.</text>
@@ -646,7 +646,7 @@
 <text>경비병은 현재 다른 범죄자들을 쫓는 중입니다. 당신은 더 이상 &lt;b&gt;수배&lt;/b&gt;되지 않습니다.</text>
 </NotifyWantedStop>
 <NotifyWantedAccumulated>
-<text>당신의 많은 범죄가 당신을 관심 있는 사람으로 만들었습니다!</text>
+<text>당신의 많은 범죄가 당신을 관심대상으로 만들었습니다!</text>
 </NotifyWantedAccumulated>
 <NotifyArmorRepaired>
 <text>동료의 갑옷이 수리되었습니다.</text>
@@ -700,13 +700,13 @@
 <text>당신의 동료들은 더 많은 경험을 하게 되었습니다. 이제 그들 중 한 명을 &lt;b&gt;선장&lt;/b&gt;으로 임명할 수 있습니다.</text>
 </NotifyFirstCaptain>
 <NotifyNewCaptain>
-<text>이전 &lt;b&gt;선장&lt;/b&gt;의 후임자를 임명할 때입니다.</text>
+<text>이전 &lt;b&gt;대장&lt;/b&gt;의 후임자를 임명할 때입니다.</text>
 </NotifyNewCaptain>
 <NotifyFirstLieutenant>
-<text>당신의 부대는 더 구조화되어 있습니다. 이제 동료 중 한 명을 &lt;b&gt;중위&lt;/b&gt;로 임명할 수 있습니다.</text>
+<text>당신의 부대는 더 구조화되어 있습니다. 이제 동료 중 한 명을 &lt;b&gt;부관&lt;/b&gt;로 임명할 수 있습니다.</text>
 </NotifyFirstLieutenant>
 <NotifySecondLieutenant>
-<text>당신의 군대가 성장하고 있습니다! 이제 동료 중 한 명을 두 번째 &lt;b&gt;중위&lt;/b&gt;로 임명할 수 있습니다.</text>
+<text>당신의 군대가 성장하고 있습니다! 이제 동료 중 한 명을 두 번째 &lt;b&gt;부관&lt;/b&gt;로 임명할 수 있습니다.</text>
 </NotifySecondLieutenant>
 <NotifyRuneDiscovered>
 <text>::item:: 룬을 발견했습니다.</text>
@@ -760,10 +760,10 @@
 <text>&lt;b&gt;::name::&lt;/b&gt;이(가) &lt;img src="item/::item::"/&gt;::itemName:: x::count:: 를 찾았습니다.</text>
 </NotifySnooper>
 <NotifyFatPork>
-<text>&lt;b&gt;::name::&lt;/b&gt;이(가) 충분히 무거워 이제 도살할 수 있습니다!</text>
+<text>&lt;b&gt;::name::&lt;/b&gt;이(가) 충분히 살이 붙어서 이제 도살할 수 있습니다!</text>
 </NotifyFatPork>
 <NotifyFleeRuins>
-<text>당신의 마지막 횃불이 꺼졌습니다... 당신의 동료들은 공포에 질려 무덤을 빠져나갔을 때 상처를 입었습니다!</text>
+<text>당신의 마지막 횃불이 꺼졌습니다... 당신의 동료들은 공포에 질려 무덤을 빠져나가다가 상처를 입었습니다!</text>
 </NotifyFleeRuins>
 <NotifyWhiplashDeath>
 <text>&lt;b&gt;::name::&lt;/b&gt;은(는) 채찍에서 살아남지 못했습니다.</text>
@@ -805,10 +805,10 @@
 <text>&lt;b&gt;::name::&lt;/b&gt; ::trait:: 특성을 잠금 해제했습니다.</text>
 </NotifyTraitUnlock>
 <NotifyWealthFirstAnnounce>
-<text>당신 부대의 부의 소문이 온 땅에 퍼지기 시작했습니다.</text>
+<text>당신 부대가 부유하다는 소문이 온 땅에 퍼지기 시작했습니다.</text>
 </NotifyWealthFirstAnnounce>
 <NotifyWealthSecondAnnounce>
-<text>당신의 재물이 온 땅에 퍼졌습니다. 당신은 이제 원치 않는 관심을 끌고 있습니다.</text>
+<text>당신의 재력이 널리 소문이 퍼졌습니다. 당신은 이제 원치 않는 관심을 끌고 있습니다.</text>
 </NotifyWealthSecondAnnounce>
 <NotifyWealthTriggered>
 <text>약탈자들이 고립된 부대를 습격하는 모습이 포착되었습니다!</text>
@@ -826,7 +826,7 @@
 <text>고대인의 무덤</text>
 </PlaceRuins_Entrance>
 <PlaceRatsHole>
-<text>쥐 감염</text>
+<text>쥐 소굴</text>
 </PlaceRatsHole>
 <PlaceForsakenVillage>
 <text>버려진 마을</text>
@@ -845,13 +845,13 @@
 <text>대상</text>
 </ToggleGoals>
 <MapPlacesDiscovered>
-<text>발견된 위치</text>
+<text>발견된 장소</text>
 </MapPlacesDiscovered>
 <MapPlacesFinished>
-<text>완료된 위치</text>
+<text>완료된 장소</text>
 </MapPlacesFinished>
 <GrimoireLearn>
-<text>배우다</text>
+<text>지식</text>
 </GrimoireLearn>
 <UnknownCategory>
 <text>아직 알려지지 않음</text>
@@ -887,7 +887,7 @@
 <text>너의 운명을 정하라</text>
 </WinHDestiny>
 <WinHArena>
-<desc>규칙1. 팀은 4명의 파이터로 구성됩니다. 등록 후에는 대회 기간 동안 팀을 수정할 수 없습니다.2. 세 번의 전투를 연속으로 싸워 아레나 챔피언에 도전하고 메달을 획득하세요.3. 전투기의 생명력이 더 이상 없으면 죽지 않고 즉시 전투에서 제외됩니다.</desc>
+<desc>규칙1. 팀은 4명의 파이터로 구성됩니다. 등록 후에는 대회 기간 동안 팀을 수정할 수 없습니다.2. 세 번의 전투를 연속으로 싸워 아레나 챔피언에 도전하고 메달을 획득하세요.3. 파이터의 생명력이 더 이상 없으면 죽지 않고 즉시 전투에서 제외됩니다.</desc>
 </WinHArena>
 <WinHArenaVoxPopuli>
 <text>군중의 선물</text>
@@ -915,12 +915,12 @@
 <text>초반에...</text>
 </WinStartGame>
 <TutoForge>
-<text>위조하는 방법을 배우십시오!</text>
+<text>대장간 일을 배우십시오!</text>
 <desc>&lt;img src="ui/tuto/forge1.jpg"/&gt; 금속 판이 가열되고 있습니다. 판이 뜨거울 때 [LMB]를 눌러 항목을 위조합니다.&lt;img src="ui/tuto/forge2.jpg"/ &gt; 금속판에 불꽃이 튀면 [LMB]를 눌러 우수한 품질의 아이템을 제작하세요!&lt;img src="ui/tuto/forge3.jpg"/&gt; 적시에 모든 판을 치면 뛰어난 품질의 아이템을 제작할 수 있습니다!</desc>
 </TutoForge>
 <TutoLockpick>
-<text>자물쇠 고르는 법을 배워보세요!</text>
-<desc>&lt;img src="ui/tuto/lockpick1.jpg"/&gt; 곡괭이를 회전하고 [LMB]를 눌러 자물쇠에 삽입합니다.&lt;img src="ui/tuto/lockpick2.jpg"/&gt; 곡괭이가 가까울수록 개구부에 더 많이 들어 올립니다. 그러나 너무 흔들면 부러질 수 있습니다.</desc>
+<text>자물쇠 따는 법을 배워보세요!</text>
+<desc>&lt;img src="ui/tuto/lockpick1.jpg"/&gt; 자물쇠 따개를 회전하고 [LMB]를 눌러 자물쇠에 삽입합니다.&lt;img src="ui/tuto/lockpick2.jpg"/&gt; 자물쇠따개가 제 위치에 가까울수록 더 많이 들어 올려집니다. 그러나 너무 흔들면 부러질 수 있습니다.</desc>
 </TutoLockpick>
 <TutoFishing>
 <text>낚시하는 법을 배우십시오!</text>
@@ -1021,121 +1021,121 @@
 </sheet>
 <sheet name="place">
 <S1RuinsEntrance>
-<world.name>Tiltren Tomb</world.name>
+<world.name>틸트렌 무덤</world.name>
 </S1RuinsEntrance>
 <S1Ruins>
-<world.name>Tiltren Tomb</world.name>
+<world.name>틸트렌 무덤</world.name>
 </S1Ruins>
 <S1TrainingCenter>
 <world.name>Brotherhood Training Grounds</world.name>
 </S1TrainingCenter>
 <S1PathMight1Lair>
-<world.name>Bandits' Lair</world.name>
+<world.name>도적 소굴</world.name>
 </S1PathMight1Lair>
 <BorderEdoran>
-<world.name>Edoranian Border Crossing</world.name>
+<world.name>에도리안 국경</world.name>
 </BorderEdoran>
 <LumberjackCamp>
-<world.name>Woodcutters' Camp</world.name>
+<world.name>나무꾼 캠프</world.name>
 </LumberjackCamp>
 <GuardCamp>
-<world.name>Guard Outpost</world.name>
+<world.name>경비병 전초기지</world.name>
 </GuardCamp>
 <GuardMine>
-<world.name>Sinister Cave</world.name>
+<world.name>불길한 동굴</world.name>
 </GuardMine>
 <SheepfoldFishery>
-<world.name>Old Wilburt's Fishery</world.name>
+<world.name>윌버트 영감의 어장</world.name>
 </SheepfoldFishery>
 <Sheepfold>
-<world.name>Old Wilburt's Sheepfold</world.name>
+<world.name>윌버트 영감의 양목장</world.name>
 </Sheepfold>
 <BanditLair>
-<world.name>The Haven</world.name>
+<world.name>안식처</world.name>
 </BanditLair>
 <HangHideout>
-<world.name>Lakeside Camp</world.name>
+<world.name>호숫가 캠프</world.name>
 </HangHideout>
 <HangFarm>
-<world.name>Wealthy Farm</world.name>
+<world.name>부유한 농장</world.name>
 </HangFarm>
 <Prison>
-<world.name>Tiltren Jail</world.name>
+<world.name>틸트렌 형무소</world.name>
 </Prison>
 <TrackersCamp>
-<world.name>Highland Trackers' Camp</world.name>
+<world.name>하이랜드 사냥꾼의 캠프</world.name>
 </TrackersCamp>
 <Stables>
-<world.name>Plateau Stables</world.name>
+<world.name>고원 마굿간</world.name>
 </Stables>
 <TowerBad1>
-<world.name>Mount Altis Tower</world.name>
+<world.name>알티스산 탑</world.name>
 </TowerBad1>
 <TowerBad2>
-<world.name>Old Lighthouse</world.name>
+<world.name>오래된 등대</world.name>
 </TowerBad2>
 <TowerBlacksmith>
-<world.name>Abandoned Tower</world.name>
+<world.name>버려진 탑</world.name>
 </TowerBlacksmith>
 <T1>
-<world.name>Stromkapp</world.name>
+<world.name>스트롬카프</world.name>
 </T1>
 <Mine>
-<world.name>Pedra Mountain Mine</world.name>
+<world.name>페드라산 광산</world.name>
 </Mine>
 <MineSalt>
-<world.name>Mount Altis Salt Mine</world.name>
+<world.name>알티스산 소금광산</world.name>
 </MineSalt>
 <MillChild>
-<world.name>Stromkapp Mill</world.name>
+<world.name>스트롬카프 방앗간</world.name>
 </MillChild>
 <FarmChild>
-<world.name>Lund Farm</world.name>
+<world.name>룬드 농장</world.name>
 </FarmChild>
 <FarmPlague>
-<world.name>Woodland Farm</world.name>
+<world.name>우드랜드 농장</world.name>
 </FarmPlague>
 <OutlawsHideout>
-<world.name>Bandits' Lair</world.name>
+<world.name>도적떼 소굴</world.name>
 </OutlawsHideout>
 <Sawmill>
-<world.name>Tiltren Lumbermill</world.name>
+<world.name>틸트렌 목재소</world.name>
 </Sawmill>
 <SawmillCave>
-<world.name>Lumbermill Basement</world.name>
+<world.name>목재소 지하</world.name>
 </SawmillCave>
 <BorderGosenberg>
-<world.name>Gosenberg Border Crossing</world.name>
+<world.name>고센버그 국경</world.name>
 </BorderGosenberg>
 <T1Market>
-<world.name>Three Hares' Market</world.name>
+<world.name>토끼 세마리 시장</world.name>
 </T1Market>
 <T1Hall>
-<world.name>Townhall</world.name>
+<world.name>마을회관</world.name>
 </T1Hall>
 <T1Apothecary>
-<world.name>Tiltren Apothecary Clinic</world.name>
+<world.name>틸트렌 약재상</world.name>
 </T1Apothecary>
 <T1Tavern>
-<world.name>Traveller's Feast Inn</world.name>
+<world.name>여행자들의 만찬 여관</world.name>
 </T1Tavern>
 <T1Forge>
-<world.name>Master Hulan's Forge</world.name>
+<world.name>장인 훌란의 대장간</world.name>
 </T1Forge>
 <CastleLaheartCastle>
-<world.name>Count Laheart's Castle</world.name>
+<world.name>라허트 백작의 성</world.name>
 </CastleLaheartCastle>
 <CastleLaheartForge>
-<world.name>Forge</world.name>
+<world.name>대장간</world.name>
 </CastleLaheartForge>
 <CastleVernalisCastle>
-<world.name>Lord Vernalis' Castle</world.name>
+<world.name>베르날리스 경의 성</world.name>
 </CastleVernalisCastle>
 <CastleVernalisApothecary>
-<world.name>Apothecary</world.name>
+<world.name>약제상</world.name>
 </CastleVernalisApothecary>
 <E1SmugglersMine>
-<world.name>Shipwreck Cavern</world.name>
+<world.name>난파선 동굴</world.name>
 </E1SmugglersMine>
 <E1SmugglersTower>
 <world.name>Arthes Harbour</world.name>
@@ -1144,244 +1144,244 @@
 <world.name>Brotherhood Training Grounds</world.name>
 </E1TrainingCamp>
 <HamletLaheartCastle>
-<world.name>Count Laheart's Castle</world.name>
+<world.name>라허트 백작의 성</world.name>
 </HamletLaheartCastle>
 <E1Ruins_Entrance>
-<world.name>Arthes Tomb</world.name>
+<world.name>아르테스 무덤</world.name>
 </E1Ruins_Entrance>
 <E1Ruins>
-<world.name>Arthes Tomb</world.name>
+<world.name>아르테스 무덤</world.name>
 </E1Ruins>
 <E1TrackerCamp>
-<world.name>Trackers' Camp</world.name>
+<world.name>사냥꾼 캠프</world.name>
 </E1TrackerCamp>
 <AnimalFarm>
-<world.name>Sehra's Sheepfold</world.name>
+<world.name>세라의 양목장</world.name>
 </AnimalFarm>
 <TowerBandit1>
-<world.name>Darkmist Tower</world.name>
+<world.name>다크미스트 탑</world.name>
 </TowerBandit1>
 <BanditTower2>
-<world.name>Old Customs Post</world.name>
+<world.name>오래된 세관건물</world.name>
 </BanditTower2>
 <E1OutlawsHideout>
-<world.name>Bandits' Lair</world.name>
+<world.name>도적 소굴</world.name>
 </E1OutlawsHideout>
 <PillageFarm>
-<world.name>Mae's Farm</world.name>
+<world.name>마이네 농장</world.name>
 </PillageFarm>
 <PaviiSheepfold>
-<world.name>Pavii Family's Sheepfold</world.name>
+<world.name>파비 가족의 양목장</world.name>
 </PaviiSheepfold>
 <PaviiCave>
-<world.name>Pavii Family's Basement</world.name>
+<world.name>파비 가족의 지하실</world.name>
 </PaviiCave>
 <HorseFarm>
-<world.name>Estuary Fishery</world.name>
+<world.name>하구 어장</world.name>
 </HorseFarm>
 <HorseCamp>
-<world.name>Shabby Camp</world.name>
+<world.name>섀비 캠프</world.name>
 </HorseCamp>
 <DangerousMine>
-<world.name>Iron Mine</world.name>
+<world.name>철광산</world.name>
 </DangerousMine>
 <T2>
-<world.name>Cortia</world.name>
+<world.name>코르티아</world.name>
 </T2>
 <PlagueBarn>
-<world.name>Reed Farm</world.name>
+<world.name>리드 농장</world.name>
 </PlagueBarn>
 <MercenaryMill>
-<world.name>Cortia Mill</world.name>
+<world.name>코르티아 방앗간</world.name>
 </MercenaryMill>
 <WitchCamp>
-<world.name>Improvised Burning Stake</world.name>
+<world.name>급조된 화형대</world.name>
 </WitchCamp>
 <PlagueHamlet>
-<world.name>Praino Village</world.name>
+<world.name>프라이노 마을</world.name>
 </PlagueHamlet>
 <PlagueCave>
 <world.name>Great Growler Grotto</world.name>
 </PlagueCave>
 <BreakableBridge>
-<world.name>Unstable Bridge</world.name>
+<world.name>불안정한 다리</world.name>
 </BreakableBridge>
 <BreakableBridgeBroken>
-<world.name>Unstable Bridge</world.name>
+<world.name>불안정한 다리</world.name>
 </BreakableBridgeBroken>
 <EleorAbbey>
-<world.name>Saint Eleor Abbey</world.name>
+<world.name>성 엘레오르 수도원</world.name>
 </EleorAbbey>
 <E1EleorAbbeyeCrypt>
-<world.name>Crypt of Saint Eleor Abbey</world.name>
+<world.name>성 엘레오르 수도원 지하실</world.name>
 </E1EleorAbbeyeCrypt>
 <PoorHamlet>
-<world.name>Boethius Village</world.name>
+<world.name>보에티우스 마을</world.name>
 </PoorHamlet>
 <Worldmap_WellSource>
 <world.name>Spring Origin</world.name>
 </Worldmap_WellSource>
 <LegionCamp>
-<world.name>Legion Camp</world.name>
+<world.name>군단 캠프</world.name>
 </LegionCamp>
 <InquisitionCamp>
-<world.name>Concealed Camp</world.name>
+<world.name>숨겨진 캠프</world.name>
 </InquisitionCamp>
 <VernalisCastel>
-<world.name>Lord Vernalis' Castle</world.name>
+<world.name>베르날리스 경의 성</world.name>
 </VernalisCastel>
 <T2Church>
-<world.name>Church of Saint Septimus</world.name>
+<world.name>성 셉티무스의 교회</world.name>
 </T2Church>
 <T2Market>
-<world.name>Little Saint Pier's Market</world.name>
+<world.name>어린 성 피어의 시장</world.name>
 </T2Market>
 <T2Apothecary>
-<world.name>Arthes Apothecary Clinic</world.name>
+<world.name>아르테스 약제상</world.name>
 </T2Apothecary>
 <T2Tavern>
-<world.name>Ploughshare Inn</world.name>
+<world.name>쟁기날 여관</world.name>
 </T2Tavern>
 <T2Forge>
-<world.name>Forge</world.name>
+<world.name>대장간</world.name>
 </T2Forge>
 <HeillmarCastleCastle>
-<world.name>Marheim Castle</world.name>
+<world.name>마르헤임 성</world.name>
 </HeillmarCastleCastle>
 <CastleHeillmarForge>
-<world.name>Forge</world.name>
+<world.name>대장간</world.name>
 </CastleHeillmarForge>
 <G1TrainingCamp>
-<world.name>Brotherhood Training Grounds</world.name>
+<world.name>형제단 훈련장</world.name>
 </G1TrainingCamp>
 <G1Arena>
-<world.name>Smot's Arena</world.name>
+<world.name>스모트의 투기장</world.name>
 </G1Arena>
 <G1ArenaMill>
-<world.name>Vertrusian Windmill</world.name>
+<world.name>베르투르스 풍차</world.name>
 </G1ArenaMill>
 <G1TapestryFarm>
-<world.name>Master Gerolt's Drapery</world.name>
+<world.name>장인 게롤트의 직물포</world.name>
 </G1TapestryFarm>
 <G1OutlawsMine>
-<world.name>Flooded Mine</world.name>
+<world.name>수몰된 광산</world.name>
 </G1OutlawsMine>
 <G1OutlawsTower>
-<world.name>Sentinel Tower</world.name>
+<world.name>경비병 탑</world.name>
 </G1OutlawsTower>
 <G1TreasureFishery>
-<world.name>Mermant's Fishery</world.name>
+<world.name>멀만트의 어장</world.name>
 </G1TreasureFishery>
 <G1OutlawsHideout>
-<world.name>Bandits' Lair</world.name>
+<world.name>도적떼 소굴</world.name>
 </G1OutlawsHideout>
 <G1BeastChildCamp>
-<world.name>Slave Camp</world.name>
+<world.name>노예 캠프</world.name>
 </G1BeastChildCamp>
 <G1PrisonSawmill>
-<world.name>Old Sawmill</world.name>
+<world.name>오래된 제재소</world.name>
 </G1PrisonSawmill>
 <G1ArtistCamp>
-<world.name>Jugglers' Camp</world.name>
+<world.name>곡예사 캠프</world.name>
 </G1ArtistCamp>
 <G1PrisonCave>
-<world.name>Dark Cave</world.name>
+<world.name>어두운 동굴</world.name>
 </G1PrisonCave>
 <G1Prison>
-<world.name>Vertrusian Jail</world.name>
+<world.name>베르트루스 형무소</world.name>
 </G1Prison>
 <G1StrikeMine>
-<world.name>Iron Mine</world.name>
+<world.name>철광산</world.name>
 </G1StrikeMine>
 <G1Stable>
-<world.name>Vertrusian Stables</world.name>
+<world.name>베르트루스 마굿간</world.name>
 </G1Stable>
 <G1CornacMine>
-<world.name>Brownrock Mine</world.name>
+<world.name>갈색바위 광산</world.name>
 </G1CornacMine>
 <G1CoreneCastel>
-<world.name>Winfel Estate</world.name>
+<world.name>윈펠 저택</world.name>
 </G1CoreneCastel>
 <G1TrackersCamp>
-<world.name>Trackers' Camp</world.name>
+<world.name>사냥꾼 캠프</world.name>
 </G1TrackersCamp>
 <G1HeillmarCastel>
-<world.name>Marheim Castle</world.name>
+<world.name>마르헤임 성</world.name>
 </G1HeillmarCastel>
 <G1SpareVineyard>
-<world.name>Loop Vineyard</world.name>
+<world.name>루프 포도농장</world.name>
 </G1SpareVineyard>
 <G1BrunhildeCastel>
-<world.name>Alazar Abode</world.name>
+<world.name>알라자르 저택</world.name>
 </G1BrunhildeCastel>
 <G1LenaideAbbey>
-<world.name>Saint Lenaid's Abbey</world.name>
+<world.name>성 레나이드 수도원</world.name>
 </G1LenaideAbbey>
 <G1ScapegoatFarm>
-<world.name>Johan Molen's Vineyard</world.name>
+<world.name>요한 몰렌의 포도농장</world.name>
 </G1ScapegoatFarm>
 <G1ApothecaryTrap>
-<world.name>Old Manor</world.name>
+<world.name>오래된 저택</world.name>
 </G1ApothecaryTrap>
 <G1ApothecaryCaveTrap>
-<world.name>Manor's Cellar</world.name>
+<world.name>저택 다락방</world.name>
 </G1ApothecaryCaveTrap>
 <T3Bis>
-<world.name>Brownrock Town</world.name>
+<world.name>갈색바위 마을</world.name>
 </T3Bis>
 <T3>
-<world.name>Marheim</world.name>
+<world.name>마르헤임</world.name>
 </T3>
 <G1Sewers>
-<world.name>Marheim Sewage System</world.name>
+<world.name>마르헤임 하수도</world.name>
 </G1Sewers>
 <T3Hall>
-<world.name>Townhall</world.name>
+<world.name>마을회관</world.name>
 </T3Hall>
 <T3Market>
-<world.name>Thousand Steps Market</world.name>
+<world.name>천걸음 시장</world.name>
 </T3Market>
 <T3Apothecary>
-<world.name>Apothecary</world.name>
+<world.name>약제상</world.name>
 </T3Apothecary>
 <T3Tavern>
-<world.name>Mother Bear Tavern</world.name>
+<world.name>엄마곰 주점</world.name>
 </T3Tavern>
 <T3Forge>
-<world.name>Forge</world.name>
+<world.name>대장간</world.name>
 </T3Forge>
 <T3BisTavern>
-<world.name>Saint Lenaid's Inn</world.name>
+<world.name>성 레나이드 여관</world.name>
 </T3BisTavern>
 <T3BisForge>
-<world.name>Forge</world.name>
+<world.name>대장간</world.name>
 </T3BisForge>
 <G2BorderPost>
-<world.name>Gosenberg Border Crossing</world.name>
+<world.name>고센버그 국경</world.name>
 </G2BorderPost>
 <FV2>
-<world.name>Cursed Village of Cirse</world.name>
+<world.name>저주받은 시르세 마을</world.name>
 </FV2>
 <H1MosquitoTower>
-<world.name>Old Edoranian Outpost</world.name>
+<world.name>오래된 에도리안 전초기지</world.name>
 </H1MosquitoTower>
 <H1TatooMaker>
-<world.name>Tules' Glade</world.name>
+<world.name>튤의 공터</world.name>
 </H1TatooMaker>
 <H1SawmillEye>
-<world.name>Community of the Light</world.name>
+<world.name>빛의 공동체</world.name>
 </H1SawmillEye>
 <H1RuinEntrance>
-<world.name>Ludern Tomb of the Ancients</world.name>
+<world.name>루데른 고대 무덤</world.name>
 </H1RuinEntrance>
 <H1Ruins>
-<world.name>Ludern Tomb</world.name>
+<world.name>루데른 무덤</world.name>
 </H1Ruins>
 <H1GhostPackCamp>
-<world.name>Secret Camp</world.name>
+<world.name>비밀 캠프</world.name>
 </H1GhostPackCamp>
 <H1Mill>
-<world.name>Secluded Cottage</world.name>
+<world.name>외딴 오두막</world.name>
 </H1Mill>
 <FV1>
 <world.name>Cursed Village of Lethyre</world.name>
@@ -1716,177 +1716,177 @@
 </S1PathMight1MercenaryGroup2Ter>
 <Worldmap_edoranRefugees>
 <props.name>Amateur Hunters</props.name>
-<props.bountyDesc>Unaware of the danger they face, a handful of Edoranians have gone hunting in Sikha's Forest. Someone must warn them lest they get eaten!</props.bountyDesc>
+<props.bountyDesc>몇 안되는 에도리안들이 위험한 줄도 모르고 시카의 숲에 사냥하러 갔네. 잡아먹히지 않도록 누가 경고해 줘야 해!</props.bountyDesc>
 </Worldmap_edoranRefugees>
 <DesignedMission1Group>
-<props.name>Desperate Refugees</props.name>
-<props.bountyDesc>Bandits have been attacking caravans and travellers along the roads. This must end now or merchants will refuse to travel through Tiltren.</props.bountyDesc>
+<props.name>절박한 난민들</props.name>
+<props.bountyDesc>도적들이 길을 따라 여행자들과 상인들을 공격하고 있네. 이걸 멈추지 않으면 상인들이 틸트렌을 돌아다니길 거부할거야</props.bountyDesc>
 </DesignedMission1Group>
 <DesignedMission2Group>
-<props.name>Drunkards</props.name>
-<props.bountyDesc>A group of drunkards have decided to square off with the Refugees. They must be stopped before things get out of control.</props.bountyDesc>
+<props.name>주정뱅이들</props.name>
+<props.bountyDesc>주정뱅이들 한 무리가 난민들과 싸우려고 작정했네. 통제불능이 되기 전에 막아야 해.</props.bountyDesc>
 </DesignedMission2Group>
 <LumberjackAttacker>
-<props.name>Tule Defenders</props.name>
+<props.name>튤 수호자들</props.name>
 </LumberjackAttacker>
 <Matthias>
-<props.bountyDesc>Wanted for a string of murders, ::roaming:: is a dangerous individual.</props.bountyDesc>
+<props.bountyDesc>연쇄 살인으로 수배된 ::roaming:: 는 위험인물이다</props.bountyDesc>
 </Matthias>
 <LaheartArmyCamp>
 <props.name>Commander Hostes</props.name>
 </LaheartArmyCamp>
 <InquisitionGroupCamp>
-<props.name>The Inquisition</props.name>
+<props.name>이단심문단</props.name>
 </InquisitionGroupCamp>
 <E1KnowledgePath1Group1>
-<props.desc>The Inquisition is moving an artefact from one Province to another.</props.desc>
+<props.desc>이단심문단이 보물을 다른 지역으로 실어나르고 있다. </props.desc>
 </E1KnowledgePath1Group1>
 <ChampinonKaghal>
-<props.bountyDesc>Brutal and unexplained deaths attributed to the ghost of Harag have been reported in Arthes. This individual must be stopped now.</props.bountyDesc>
+<props.bountyDesc>아르테스에서 하라그의 유령이 잔혹한 정체모를 죽음과 관계된 것으로 보고되었다. 이 자는 반드시 막아야 한다. </props.bountyDesc>
 </ChampinonKaghal>
 <LaheartEndLaheartArmy>
-<props.name>Count Laheart's Army</props.name>
+<props.name>라허트 백작의 군대</props.name>
 </LaheartEndLaheartArmy>
 <E1DesignedMission3Group>
-<props.name>Corpse Looters</props.name>
-<props.bountyDesc>Some people were spotted looting corpses on a battlefield. This must not be allowed to continue!</props.bountyDesc>
+<props.name>시체약탈꾼</props.name>
+<props.bountyDesc>전쟁터에서 시체들 물건을 약탁하는 자들이 목격되었다. 이런 짓을 계속하게 둬서는 안된다!</props.bountyDesc>
 </E1DesignedMission3Group>
 <E1DesignedMission2Group>
-<props.name>Ghost Hunters</props.name>
-<props.bountyDesc>Soldiers from Lord Laheart's army have decided to slay the Ghost of Harag. Reason with these fools before they freeze to death in the mountains!</props.bountyDesc>
+<props.name>유령 사냥꾼</props.name>
+<props.bountyDesc>라허트 경의 군대가 하라그의 유령을 해치우려고 결심했다. 이 바보들이 산속에서 얼어죽기 전에 설득해야 한다!</props.bountyDesc>
 </E1DesignedMission2Group>
 <E1DesignedMission1Group>
-<props.name>The Lost Expedition</props.name>
-<props.bountyDesc>An expedition has given no news for days. Alazar's ambassador is promising a large sum of Krowns to whoever will find them.</props.bountyDesc>
+<props.name>실종된 탐험대</props.name>
+<props.bountyDesc>탐험대 하나가 며칠째 소식이 없다. 알라자르의 대사가 이들을 찾는 사람에게 큰 상금을 약속했다. </props.bountyDesc>
 </E1DesignedMission1Group>
 <AnimalFarmWolves>
-<props.desc>The wolves are trying to enter the building!</props.desc>
+<props.desc>늑대들이 건물 안으로 들어가려고 하고 있다!</props.desc>
 </AnimalFarmWolves>
 <PlagueManGroup>
-<props.name>The Cannibal</props.name>
+<props.name>식인종</props.name>
 </PlagueManGroup>
 <PlagueVillagers>
-<props.name>Praino Villagers</props.name>
+<props.name>프라이노 마을사람들</props.name>
 </PlagueVillagers>
 <LaheartCaravan>
-<props.desc>This group is taking a large amount of food to Laheart's castle.</props.desc>
+<props.desc>이 무리가 라허트의 성으로 대량의 식량을 운반하고 있다.</props.desc>
 </LaheartCaravan>
 <Worldmap_HamletLaheartTest>
-<props.desc>This group seems surprised to see you.</props.desc>
+<props.desc>이 무리는 당신을 만나서 놀란듯 하다.</props.desc>
 </Worldmap_HamletLaheartTest>
 <G1PrisonSawmillBandits>
-<props.desc>Fugitives do not tend to return where they came from!</props.desc>
+<props.desc>탈주범들은 감옥으로 돌아가고 싶어하지 않는다!</props.desc>
 </G1PrisonSawmillBandits>
 <G1ChampionAlexaGroup>
-<props.bountyDesc>Rumour has it that the old ::roaming:: might be somewhere in this Province. The Legion is willing to pay a handsome reward for her head.</props.bountyDesc>
+<props.bountyDesc>소문에 ::roaming:: 가 이 지역 어딘가에 있다고 한다. 군단이 그녀의 목에 상당한 상금을 지불할 용의가 있다.</props.bountyDesc>
 </G1ChampionAlexaGroup>
 <G1DesignedMission1Group>
-<props.name>The New Recruits</props.name>
-<props.bountyDesc>The Brotherhood is concerned for a group of young recruits who haven't returned from their training.</props.bountyDesc>
+<props.name>신참들</props.name>
+<props.bountyDesc>형제단이 훈련을 나간 신참들이 돌아오지 않아 걱정하고 있다.</props.bountyDesc>
 </G1DesignedMission1Group>
 <G1DesignedMission2Group>
-<props.name>Brothers on a Mission</props.name>
-<props.bountyDesc>Protect someone called Sanka Bael by fighting off the Brotherhood, who have come to collect her debt.</props.bountyDesc>
+<props.name>임무중인 형제</props.name>
+<props.bountyDesc>빚진 돈을 받아내려는 형제단을 물리치고 산카 바엘이라는 사람을 보호하라.</props.bountyDesc>
 </G1DesignedMission2Group>
 <G1DesignedMission3Group2>
-<props.name>The Old Pig Keeper</props.name>
-<props.bountyDesc>A farmer is looking for his father-in-law who went missing while gathering wood in the mountain.</props.bountyDesc>
+<props.name>늙은 돼지치기</props.name>
+<props.bountyDesc>한 농부가 산 속으로 나무를 모으로 갔다가 실종된 장인을 찾고 있다.</props.bountyDesc>
 </G1DesignedMission3Group2>
 <G1PoisonersGroups>
-<props.desc>These men's knees are covered in mud.</props.desc>
+<props.desc>이 사람들의 무릎이 진흙으로 뒤덮여 있다.</props.desc>
 </G1PoisonersGroups>
 <G1ApothecaryKillersGroup>
-<props.desc>This unknown gang was hiding behind a bush, waiting for you.</props.desc>
+<props.desc>정체모를 패거리들이 수풀 뒤에 숨어서 당신을 기다리고 있다.</props.desc>
 </G1ApothecaryKillersGroup>
 <H1ChampionGroup>
-<props.bountyDesc>An unusually powerful Plague-ridden is prowling the lands of Ludern. The Guard fears that he will spread the Plague across the entire region.</props.bountyDesc>
+<props.bountyDesc>대단히 강한 역병감염자가 루데른 지역을 돌아다니고 있다. 경비병들은 그가 전 지역에 역병을 퍼트릴까봐 두려워 하고 있다. </props.bountyDesc>
 </H1ChampionGroup>
 <H1DesignedMission1>
-<props.bountyDesc>Men wanted by the Legion are rumoured to be in Ludern. To avoid conflict with Edoran, the clans have put a bounty on their heads.</props.bountyDesc>
+<props.bountyDesc>군단에 수배된 자들이 루데른에 있다는 소문이 있다. 에도란과의 갈등을 피하기 위해서 부족들은 그자들 목에 현상금을 걸었다.</props.bountyDesc>
 </H1DesignedMission1>
 <H1DesignedMission2>
-<props.bountyDesc>The family of a Gosenberg merchant, who has been in Ludern for many months, is pleading for their father's return.</props.bountyDesc>
+<props.bountyDesc>루데른에 수개월간 머물고 있는 고센버그 상인 일가가 아버지의 귀환을 간청하고 있다.</props.bountyDesc>
 </H1DesignedMission2>
 <H1DesignedMission3>
-<props.name>Wolf-eaters</props.name>
-<props.bountyDesc>Trackers said they found wolf carcasses bearing what they believe are human bite marks. The Plague-ridden responsible must be found before they start attacking people!</props.bountyDesc>
+<props.name>늑대포식자</props.name>
+<props.bountyDesc>사냥꾼들이 사람이 물어뜯은 자국이 있는 늑대 시체를 발견했다고 한다. 이런 짓을 한 역병감염자들이 사람을 습격하기 전에 찾아야 한다!</props.bountyDesc>
 </H1DesignedMission3>
 <IR1BorderPostBandit>
-<props.desc>This group of Bandits guards the frontier between Ludern and Tiltren.</props.desc>
+<props.desc>이 도적무리가 루데른과 틸트렌 경계를 지키고 있다.</props.desc>
 </IR1BorderPostBandit>
 <BountyOutlaws>
-<props.name>The $NAME gang</props.name>
+<props.name>$NAME 패거리</props.name>
 </BountyOutlaws>
 <BountyDeserters>
-<props.name>$NAME's squad</props.name>
+<props.name>$NAME의 분대</props.name>
 </BountyDeserters>
 <BountyCompanions>
-<props.name>$NAME's troop</props.name>
+<props.name>$NAME의 부대</props.name>
 </BountyCompanions>
 <AssassinateLegion>
-<props.name>$NAME's troop</props.name>
+<props.name>$NAME의 부대</props.name>
 </AssassinateLegion>
 <AssassinateGuard>
-<props.name>$NAME's troop</props.name>
+<props.name>$NAME의 부대</props.name>
 </AssassinateGuard>
 <BountyHaragTrackers>
-<props.name>$NAME's pack</props.name>
+<props.name>$NAME의 무리</props.name>
 </BountyHaragTrackers>
 <Fugitive01Army>
-<props.name>Rojen's Coterie</props.name>
-<props.bountyDesc>Using the Brotherhood's banner, Rojen robs and kills the merchants who call on him for protection.</props.bountyDesc>
+<props.name>로젠의 무리</props.name>
+<props.bountyDesc>로젠은 형제단의 깃발을 달고서 보호를 요청하는 상인들 물건을 빼앗고 죽이고 있다.</props.bountyDesc>
 </Fugitive01Army>
 <Fugitive02Army>
-<props.name>Sylla's Inquisitors</props.name>
-<props.bountyDesc>After three victims were burned at the stake in less than a week with complete disregard for due process, Broker Ald Marheim has ordered the arrest of Sylla and her Inquisitors.</props.bountyDesc>
+<props.name>실라의 이단심문관</props.name>
+<props.bountyDesc>적절한 절차를 완전히 무시하고 일주일도 안되어 세명이 화형당했기 때문에 중개인 알드 마르헤임은 실라와 그녀의 이단심문관들을 체포할 것을 명령했다. </props.bountyDesc>
 </Fugitive02Army>
 <Fugitive03Army>
-<props.name>Meliance's Troop</props.name>
-<props.bountyDesc>Former members of Lord Laheart's Army have been sowing havoc and death in the Arthes countryside. Cortia is offering a hefty sum for the head of their leader Meliance.</props.bountyDesc>
+<props.name>멜리안스의 부대</props.name>
+<props.bountyDesc>라허트 경의 군대 소속이었던 자들이 아르테스 시골지역에서 파괴와 죽음의 씨앗을 뿌리고 있다. 코르티아는 그들의 리더 멜리안스의 목에 큰 상금을 제안하고 있다.</props.bountyDesc>
 </Fugitive03Army>
 <Fugitive04Army>
-<props.name>Gacius's Cohort</props.name>
-<props.bountyDesc>For an unknown reason, Lieutenant Gacius and his cohort of Legionnaires are trying to infiltrate Ludern. The Edoranian General is ready to pay to avoid a diplomatic incident.</props.bountyDesc>
+<props.name>가시우스의 부대</props.name>
+<props.bountyDesc>알 수 없는 이유로 가시우스 부장과 그의 군단 부대가 루데른에 침투하려고 하고 있다. 에도리안 장군은 외교적 사고를 막기 위해 돈을 지불할 준비가 되어 있다.</props.bountyDesc>
 </Fugitive04Army>
 <Fugitive05Army>
-<props.name>The Old Crone's Crew</props.name>
-<props.bountyDesc>The Old Crone and her lackeys are wanted in all of Ludern for a series of crimes, including murder, arson, battery and pony theft.</props.bountyDesc>
+<props.name>늙은노파의 동료들</props.name>
+<props.bountyDesc>늙은노파와 하인들이 루데른 전역에서 살인, 방화, 폭행, 조랑말 도둑질을 포함하는 일련의 범죄행위로 수배되었다. </props.bountyDesc>
 </Fugitive05Army>
 <Fugitive06Army>
-<props.name>Finna's Pack</props.name>
-<props.bountyDesc>The Gosenberg Minstrel Guild has raised a large sum of money to be rid of Finna's Pack.</props.bountyDesc>
+<props.name>피나의 무리</props.name>
+<props.bountyDesc>고센버그 음유시인 협회는 피나의 무리를 제거하는데 큰 상금을 걸었다.</props.bountyDesc>
 </Fugitive06Army>
 <Fugitive07Army>
-<props.name>Bartes’ Gang</props.name>
-<props.bountyDesc>Despite many stretches behind bars, Bartes remains as rowdy as ever and burned down the Cortia Tavern to celebrate his release. But this time, the Guard has put a price on his head.</props.bountyDesc>
+<props.name>바르테스 패거리</props.name>
+<props.bountyDesc>바르테스는 오랜 감옥생활에도 불구하고 여전히 난폭하다. 출옥 기념으로 코르티아 주점을 불태워서 경비대가 놈의 목에 현상금을 걸었다.</props.bountyDesc>
 </Fugitive07Army>
 <Fugitive08Army>
-<props.name>Eitlingarde’s Followers</props.name>
-<props.bountyDesc>Found guilty of sedition in Alazar, Eitlingarde and her Followers are hiding in Arthes until things die down.</props.bountyDesc>
+<props.name>에이틀린가르드의 추종자들</props.name>
+<props.bountyDesc>알라자르에서 폭동을 선동한 죄를 짓고 에이틀린가르드와 그녀의 추종자들은 아르테스에 숨어서 사태가 진정되길 기다리고 있다.</props.bountyDesc>
 </Fugitive08Army>
 <Fugitive09Army>
-<props.name>The Ogre's Troop</props.name>
-<props.bountyDesc>Children have started disappearing again... This can only mean one thing: the infamous Ogre is back.</props.bountyDesc>
+<props.name>오거의 부대</props.name>
+<props.bountyDesc>아이들이 또 실종되고 있다... 악명높은 오거가 돌아온 것이 틀림없다.</props.bountyDesc>
 </Fugitive09Army>
 <Fugitive10Army>
-<props.name>Selestius' Inquisitors</props.name>
-<props.bountyDesc>The Inquisition has had enough of Brother Selestius' antics and are calling for the arrest of the fanatical monk before he hurts someone.</props.bountyDesc>
+<props.name>셀레스티우스의 이단심문관들</props.name>
+<props.bountyDesc>셀레스티우스 형제의 위험한 행동에 지친 이단심문단은 이 광신적인 수도승이 누군가를 다치게 만들기 전에 체포할 것을 원한다.</props.bountyDesc>
 </Fugitive10Army>
 <Fugitive11Army>
-<props.name>Eligann's Troop</props.name>
-<props.bountyDesc>Tired of the ways of the Guard, Eligann and her Troop advocate a more expeditious method.</props.bountyDesc>
+<props.name>엘리간의 부대</props.name>
+<props.bountyDesc>경비대의 방식에 지친 엘리간과 그녀의 부대는 좀 더 효율적인 방법을 지지한다.</props.bountyDesc>
 </Fugitive11Army>
 <Fugitive12Army>
-<props.name>Eleora's Cohort</props.name>
-<props.bountyDesc>Merchants report seeing a small contingent of Legion troops out and about in Grinmeer. The Broker Council demands that these intruders are driven out.</props.bountyDesc>
+<props.name>엘레오라의 무리</props.name>
+<props.bountyDesc>상인들이 그린미어에서 돌아다니는 소규모 군단 파견대를 목격했다고 보고했다. 중개인 평의회는 이 침입자들을 몰아내길 요구한다.</props.bountyDesc>
 </Fugitive12Army>
 <Fugitive18Army>
-<props.name>Maudeg's troops</props.name>
-<props.bountyDesc>Not only did Maudeg and his accomplices desert the Ludern Guard, but they also made off with their employers' funds. The Clans want to make an example of them with severe retribution.</props.bountyDesc>
+<props.name>마우덱의 부대</props.name>
+<props.bountyDesc>마두덱과 그의 공범들은 루데른 경비대를 탈영했을 뿐 아니라 고용주들의 자금을 훔쳐서 달아났다. 부족들은 가혹한 응징으로 본보기를 보여주길 원한다.</props.bountyDesc>
 </Fugitive18Army>
 <Fugitive15Army>
-<props.name>Otton's Followers</props.name>
-<props.bountyDesc>Otton and his slave traders have apparently already crossed the border into Ludern, with a host of captive peasants.</props.bountyDesc>
+<props.name>오톤의 추종자들</props.name>
+<props.bountyDesc>오톤과 그의 노예상인들은 붙잡은 농부들을 데리고 이미 루데른 국경을 넘어간 것이 틀림없다.</props.bountyDesc>
 </Fugitive15Army>
 <Fugitive13Army>
 <props.name>Diewer's Gang</props.name>
