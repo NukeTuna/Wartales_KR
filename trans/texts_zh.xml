@@ -495,14 +495,14 @@
 <t id="unit_kill_title">::name::이(가) 실행되었습니다.</t>
 <t id="drop_item">::name:: x::count::를 삭제하시겠습니까?</t>
 <t id="retreat_fight">퇴각을 외치고 전투를 포기하시겠습니까?</t>
-<t id="repair_action">::count:: 모두 복구</t>
+<t id="repair_action">모두 수리 <img src="/item/RawMaterials"/>::count::</t>
 <t id="repair_armor">::qty::를 사용하여 갑옷을 수리하시겠습니까?</t>
 <t id="repair_all_armors">::qty::의 모든 갑옷을 수리하십시오.</t>
 <t id="cure_all_injuries">::qty:: 의 모든 상처를 치유하시겠습니까?</t>
-<t id="unit_unchain">무료 ::이름::?</t>
+<t id="unit_unchain">방면 ::이름::?</t>
 <t id="unit_chain">::name:: 죄수?
 (확실히 배신감을 느끼겠지...)</t>
-<t id="heal_action">모두 치유 ::count::</t>
+<t id="heal_action">모두 치유 <img src="/item/Remedy"/>::count::</t>
 <t id="heal_title">부상 치료</t>
 <t id="heal_injury">::remedy::를 사용하여 ::name::?</t>
 <t id="heal_remedy_none">이 부상에 대한 약이 없습니다. Apothecary를 방문하여 구매하거나 만들 수 있습니다.</t>
